@@ -51,7 +51,7 @@ public class Percolation {
         return false;
     }
 
-    protected boolean isConnectedToTop(int linearIndex) {
+    private boolean isConnectedToTop(int linearIndex) {
         for (int q = 0; q < N; q++) {
             if (siteState[q] == OPEN && quickFindUF.connected(linearIndex, q)) {
                 return true;
