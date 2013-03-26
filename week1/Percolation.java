@@ -72,7 +72,7 @@ public class Percolation {
     }
 
     private int getLinearIndex(int i, int j) {
-        if (i < 1 || i > N || j < 0 || j > N) {
+        if (i < 1 || i > N || j < 1 || j > N) {
             String errorMsg = "Rows and column indices must be between 1 and "
                     + N;
             throw new IndexOutOfBoundsException(errorMsg);

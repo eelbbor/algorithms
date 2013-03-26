@@ -1,4 +1,3 @@
-import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -143,22 +142,22 @@ public class PercolationTest {
     }
 
     public void testIndexOutOfBoundsExceptionThrownForInvalidIndexCallingOpen() throws Exception {
-        validateIndexOutOfBoundsException(OPEN, 0, 1);
-        validateIndexOutOfBoundsException(OPEN, 1, 0);
+        validateIndexOutOfBoundsException(OPEN, 0, N/2);
+        validateIndexOutOfBoundsException(OPEN, N/2, 0);
         validateIndexOutOfBoundsException(OPEN, N + 1, 1);
         validateIndexOutOfBoundsException(OPEN, 1, N + 1);
     }
 
     public void testIndexOutOfBoundsExceptionThrownForInvalidIndexCallingIsFull() throws Exception {
-        validateIndexOutOfBoundsException(IS_OPEN, 0, 1);
-        validateIndexOutOfBoundsException(IS_OPEN, 1, 0);
+        validateIndexOutOfBoundsException(IS_OPEN, 0, N/2);
+        validateIndexOutOfBoundsException(IS_OPEN, N/2, 0);
         validateIndexOutOfBoundsException(IS_OPEN, N + 1, 1);
         validateIndexOutOfBoundsException(IS_OPEN, 1, N + 1);
     }
 
     public void testIndexOutOfBoundsExceptionThrownForInvalidIndexCallingIsOpen() throws Exception {
-        validateIndexOutOfBoundsException(IS_FULL, 0, 1);
-        validateIndexOutOfBoundsException(IS_FULL, 1, 0);
+        validateIndexOutOfBoundsException(IS_FULL, 0, N/2);
+        validateIndexOutOfBoundsException(IS_FULL, N/2, 0);
         validateIndexOutOfBoundsException(IS_FULL, N + 1, 1);
         validateIndexOutOfBoundsException(IS_FULL, 1, N + 1);
     }
