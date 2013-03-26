@@ -103,15 +103,16 @@ public class PercolationTest {
     }
 
     public void testFullCellInCenterOfGrid() {
-        percolation = new Percolation(3);
-        openAndValidateFull(1, 2, true); //open center top
-        openAndValidateFull(2, 1, false); //open below left
-        openAndValidateFull(2, 3, false); //open below right
+        openAndValidateFull(1, 2, true); //open above top
+        openAndValidateFull(2, 1, false); //open left
+        openAndValidateFull(2, 3, false); //open right
+        openAndValidateFull(3, 2, false); //open below
         assertFalse(percolation.isFull(2, 2));
 
         openAndValidateFull(2, 2, true); //open directly below should fill adjacent cells
         assertTrue(percolation.isFull(2, 1));
         assertTrue(percolation.isFull(2, 3));
+        assertTrue(percolation.isFull(3, 2));
     }
 
     public void testDiagonalOpenCellsNotFilledByFullCell() {
@@ -142,22 +143,22 @@ public class PercolationTest {
     }
 
     public void testIndexOutOfBoundsExceptionThrownForInvalidIndexCallingOpen() throws Exception {
-        validateIndexOutOfBoundsException(OPEN, 0, N/2);
-        validateIndexOutOfBoundsException(OPEN, N/2, 0);
+        validateIndexOutOfBoundsException(OPEN, 0, N / 2);
+        validateIndexOutOfBoundsException(OPEN, N / 2, 0);
         validateIndexOutOfBoundsException(OPEN, N + 1, 1);
         validateIndexOutOfBoundsException(OPEN, 1, N + 1);
     }
 
     public void testIndexOutOfBoundsExceptionThrownForInvalidIndexCallingIsFull() throws Exception {
-        validateIndexOutOfBoundsException(IS_OPEN, 0, N/2);
-        validateIndexOutOfBoundsException(IS_OPEN, N/2, 0);
+        validateIndexOutOfBoundsException(IS_OPEN, 0, N / 2);
+        validateIndexOutOfBoundsException(IS_OPEN, N / 2, 0);
         validateIndexOutOfBoundsException(IS_OPEN, N + 1, 1);
         validateIndexOutOfBoundsException(IS_OPEN, 1, N + 1);
     }
 
     public void testIndexOutOfBoundsExceptionThrownForInvalidIndexCallingIsOpen() throws Exception {
-        validateIndexOutOfBoundsException(IS_FULL, 0, N/2);
-        validateIndexOutOfBoundsException(IS_FULL, N/2, 0);
+        validateIndexOutOfBoundsException(IS_FULL, 0, N / 2);
+        validateIndexOutOfBoundsException(IS_FULL, N / 2, 0);
         validateIndexOutOfBoundsException(IS_FULL, N + 1, 1);
         validateIndexOutOfBoundsException(IS_FULL, 1, N + 1);
     }
