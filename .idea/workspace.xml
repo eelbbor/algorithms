@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e895eb1b-8f62-4266-b421-e2f185ff2385" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week1/Percolation.java" afterPath="$PROJECT_DIR$/week1/Percolation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week1test/PercolationTest.java" afterPath="$PROJECT_DIR$/week1test/PercolationTest.java" />
-    </list>
+    <list default="true" id="e895eb1b-8f62-4266-b421-e2f185ff2385" name="Default" comment="" />
     <ignored path="algs4.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="checkstyle-5.5/" />
@@ -28,7 +25,7 @@
     <file path="/Percolation.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1363883589649" ignored="false" />
     <file path="/fragment.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364323828607" ignored="false" />
     <file path="/hellifiknow.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1363669764959" ignored="false" />
-    <file path="/PercolationStats.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1363892968618" ignored="false" />
+    <file path="/PercolationStats.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364325257562" ignored="false" />
     <file path="/PercolationTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364324254094" ignored="false" />
     <file path="/Dummy.txt" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364323445691" ignored="false" />
     <file path="/FileTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1363759682500" ignored="false" />
@@ -95,19 +92,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Percolation.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Percolation.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/week1/Percolation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="28" selection-start="2316" selection-end="2316" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PercolationTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/week1test/PercolationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="156" column="11" selection-start="5292" selection-end="5292" vertical-scroll-proportion="0.5405405">
+            <state line="58" column="9" selection-start="1584" selection-end="1747" vertical-scroll-proportion="0.45238096">
               <folding />
             </state>
           </provider>
@@ -131,7 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/weekone/Percolation.java" />
         <option value="$PROJECT_DIR$/Percolation.java" />
         <option value="$PROJECT_DIR$/src/justcause/hellifiknow.java" />
         <option value="$PROJECT_DIR$/test/PercolationTest.java" />
@@ -147,6 +134,7 @@
         <option value="$PROJECT_DIR$/week2/Subset.java" />
         <option value="$PROJECT_DIR$/week1/Percolation.java" />
         <option value="$PROJECT_DIR$/week1test/PercolationTest.java" />
+        <option value="$PROJECT_DIR$/week1/PercolationStats.java" />
       </list>
     </option>
   </component>
@@ -557,9 +545,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1276" height="778" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.7887538" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7887538" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -685,11 +673,6 @@
         <state line="298" column="27" selection-start="8521" selection-end="8522" vertical-scroll-proportion="-4.730769" />
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/algs4.jar!/WeightedQuickUnionUF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="15" selection-start="913" selection-end="913" vertical-scroll-proportion="0.33164558" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/week1test/PercolationStatsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="33" selection-start="70" selection-end="70" vertical-scroll-proportion="0.04761905">
@@ -697,23 +680,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/week1test/PercolationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="156" column="11" selection-start="5292" selection-end="5292" vertical-scroll-proportion="0.0952381">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/week1/PercolationStats.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="9" selection-start="2067" selection-end="2067" vertical-scroll-proportion="0.45238096">
+        <state line="50" column="72" selection-start="1544" selection-end="1544" vertical-scroll-proportion="1.2417219">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/algs4.jar!/QuickFindUF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/algs4.jar!/WeightedQuickUnionUF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="28" selection-start="1180" selection-end="1189" vertical-scroll-proportion="0.40397352">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/week1/Percolation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="28" selection-start="2316" selection-end="2316" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week1test/PercolationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="156" column="11" selection-start="5292" selection-end="5292" vertical-scroll-proportion="0.5405405">
+        <state line="58" column="9" selection-start="1584" selection-end="1747" vertical-scroll-proportion="0.45238096">
           <folding />
         </state>
       </provider>
