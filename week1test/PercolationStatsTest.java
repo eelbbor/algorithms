@@ -20,7 +20,7 @@ public class PercolationStatsTest {
         assertTrue(percolationStats.confidenceLo() < 1.0);
         assertTrue(percolationStats.confidenceHi() < 1.0);
 
-        double adjustValue = 1.96*percolationStats.stddev()/Math.sqrt(T);
+        double adjustValue = 1.96 * percolationStats.stddev() / Math.sqrt(T);
         assertEquals(percolationStats.confidenceLo(), percolationStats.mean() - adjustValue);
         assertEquals(percolationStats.confidenceHi(), percolationStats.mean() + adjustValue);
     }

@@ -5,14 +5,16 @@ import static org.testng.Assert.*;
 
 @Test
 public class PercolationTest {
-    private static final int N = 5;
     public static final String OPEN = "open";
     public static final String IS_OPEN = "isOpen";
     public static final String IS_FULL = "isFull";
+
+    private int N = -1;
     private Percolation percolation;
 
     @BeforeMethod
     protected void setUp() {
+        N = 5;
         percolation = new Percolation(N);
     }
 
@@ -21,7 +23,8 @@ public class PercolationTest {
     }
 
     public void testOneByOnePercolates() {
-        percolation = new Percolation(1);
+        N = 1;
+        percolation = new Percolation(N);
         openAndValidateFull(1, 1, true);
         assertTrue(percolation.percolates());
     }
@@ -116,7 +119,8 @@ public class PercolationTest {
     }
 
     public void testDiagonalOpenCellsNotFilledByFullCell() {
-        percolation = new Percolation(3);
+        N = 3;
+        percolation = new Percolation(N);
         openAndValidateFull(1, 2, true); //open center top
         openAndValidateFull(2, 1, false); //open below left
         openAndValidateFull(2, 3, false); //open below right
