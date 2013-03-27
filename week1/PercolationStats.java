@@ -1,5 +1,4 @@
 public class PercolationStats {
-    private Percolation percolation;
     private int N = -1;
     private int T = -1;
     private int[] openSiteCount = null;
@@ -14,18 +13,20 @@ public class PercolationStats {
         this.T = T;
         openSiteCount = new int[T];
         int openCount = 0;
+        Percolation percolation = null;
         for (int test = 0; test < T; test++) {
             percolation = new Percolation(N);
             while (!percolation.percolates()) {
-                openNewSite();
+                openNewSite(percolation);
                 openCount++;
             }
+            percolation = null;
             openSiteCount[test] = openCount;
             openCount = 0;
         }
     }
 
-    private void openNewSite() {
+    private void openNewSite(Percolation percolation) {
         int i = StdRandom.uniform(N) + 1;
         int j = StdRandom.uniform(N) + 1;
         while (percolation.isOpen(i, j)) {

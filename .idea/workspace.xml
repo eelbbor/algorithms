@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e895eb1b-8f62-4266-b421-e2f185ff2385" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week1test/PercolationTest.java" afterPath="$PROJECT_DIR$/week1test/PercolationTest.java" />
-    </list>
+    <list default="true" id="e895eb1b-8f62-4266-b421-e2f185ff2385" name="Default" comment="" />
     <ignored path="algs4.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="checkstyle-5.5/" />
@@ -27,9 +25,9 @@
     <file path="/Percolation.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364339039076" ignored="false" />
     <file path="/fragment.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364328415130" ignored="false" />
     <file path="/hellifiknow.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1363669764959" ignored="false" />
-    <file path="/PercolationStats.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364325257562" ignored="false" />
+    <file path="/PercolationStats.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364351513253" ignored="false" />
     <file path="/PercolationTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364339763874" ignored="false" />
-    <file path="/Dummy.txt" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364328392107" ignored="false" />
+    <file path="/Dummy.txt" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364343920974" ignored="false" />
     <file path="/FileTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1363759682500" ignored="false" />
     <file path="/PercolationVisualizer.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364328399589" ignored="false" />
     <file path="/PercolationVisualizerTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1363760711582" ignored="false" />
@@ -97,17 +95,37 @@
       <file leaf-file-name="Percolation.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/week1/Percolation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="40" selection-start="745" selection-end="773" vertical-scroll-proportion="-12.115385">
+            <state line="21" column="40" selection-start="745" selection-end="773" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PercolationTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PercolationTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/week1test/PercolationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="4" selection-start="3355" selection-end="3355" vertical-scroll-proportion="0.28767124">
+            <state line="103" column="4" selection-start="3355" selection-end="3355" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PercolationStats.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/week1/PercolationStats.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="31" selection-start="831" selection-end="831" vertical-scroll-proportion="0.5956044">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PercolationStatsTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week1test/PercolationStatsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="33" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,10 +160,10 @@
         <option value="$PROJECT_DIR$/test/PercolationStatsTest.java" />
         <option value="$PROJECT_DIR$/week2/RandomizedQueue.java" />
         <option value="$PROJECT_DIR$/week2/Subset.java" />
-        <option value="$PROJECT_DIR$/week1/PercolationStats.java" />
         <option value="$PROJECT_DIR$/week1test/PercolationVisualizer.java" />
         <option value="$PROJECT_DIR$/week1/Percolation.java" />
         <option value="$PROJECT_DIR$/week1test/PercolationTest.java" />
+        <option value="$PROJECT_DIR$/week1/PercolationStats.java" />
       </list>
     </option>
   </component>
@@ -180,8 +198,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -269,8 +287,8 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
   </component>
@@ -290,7 +308,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PercolationTest">
+  <component name="RunManager" selected="TestNG.PercolationStatsTest">
     <configuration default="false" name="PercolationVisualizer" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="PercolationVisualizer" />
@@ -372,35 +390,6 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="PercolationStatsTest" type="TestNG" factoryName="TestNG" temporary="true">
-      <module name="algs4" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PercolationStatsTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="PercolationTest.testDiagonalOpenCellsNotFilledByFullCell" type="TestNG" factoryName="TestNG" temporary="true">
       <module name="algs4" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -432,6 +421,35 @@
         <option name="LOCAL" value="true" />
       </RunnerSettings>
       <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PercolationStatsTest" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="algs4" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PercolationStatsTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -500,15 +518,15 @@
       <item index="0" class="java.lang.String" itemvalue="Application.PercolationVisualizer" />
       <item index="1" class="java.lang.String" itemvalue="TestNG.PercolationTest" />
       <item index="2" class="java.lang.String" itemvalue="TestNG.PercolationTest.testIndexOutOfBoundsExceptionThrownForInvalidIndexCallingOpen" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.PercolationStatsTest" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.PercolationTest.testDiagonalOpenCellsNotFilledByFullCell" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.PercolationTest.testDiagonalOpenCellsNotFilledByFullCell" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.PercolationStatsTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.PercolationTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.PercolationVisualizer" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.PercolationTest.testDiagonalOpenCellsNotFilledByFullCell" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.PercolationStatsTest" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.PercolationStatsTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.PercolationTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.PercolationVisualizer" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.PercolationTest.testDiagonalOpenCellsNotFilledByFullCell" />
         <item index="4" class="java.lang.String" itemvalue="TestNG.PercolationTest.testIndexOutOfBoundsExceptionThrownForInvalidIndexCallingOpen" />
       </list>
     </recent_temporary>
@@ -557,8 +575,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22845529" sideWeight="0.6793313" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40273556" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22845529" sideWeight="0.77355623" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22644377" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5699088" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -626,6 +644,20 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/week1/Percolation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="40" selection-start="745" selection-end="773" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1test/PercolationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="4" selection-start="3355" selection-end="3355" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/io/File.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="11" selection-start="825" selection-end="825" vertical-scroll-proportion="0.33251232" />
@@ -665,27 +697,9 @@
         <state line="298" column="27" selection-start="8521" selection-end="8522" vertical-scroll-proportion="-4.730769" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week1/PercolationStats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="72" selection-start="1544" selection-end="1544" vertical-scroll-proportion="1.2417219">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/algs4.jar!/QuickFindUF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week1test/PercolationStatsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="33" selection-start="72" selection-end="72" vertical-scroll-proportion="0.08353222">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/week1test/PercolationVisualizer.java">
@@ -699,21 +713,35 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/algs4.jar!/WeightedQuickUnionUF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="27" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.5">
-          <folding />
-        </state>
+        <state line="38" column="27" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.5" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/week1/Percolation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="40" selection-start="745" selection-end="773" vertical-scroll-proportion="-12.115385">
+        <state line="21" column="40" selection-start="745" selection-end="773" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/week1test/PercolationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="4" selection-start="3355" selection-end="3355" vertical-scroll-proportion="0.28767124">
+        <state line="103" column="4" selection-start="3355" selection-end="3355" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1test/PercolationStatsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="33" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/PercolationStats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="31" selection-start="831" selection-end="831" vertical-scroll-proportion="0.5956044">
           <folding />
         </state>
       </provider>
