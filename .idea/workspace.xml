@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e895eb1b-8f62-4266-b421-e2f185ff2385" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week1/Percolation.java" afterPath="$PROJECT_DIR$/week1/Percolation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2/Deque.java" afterPath="$PROJECT_DIR$/week2/Deque.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2/RandomizedQueue.java" afterPath="$PROJECT_DIR$/week2/RandomizedQueue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2test/RandomizedQueueTest.java" afterPath="$PROJECT_DIR$/week2test/RandomizedQueueTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="algs4.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,18 +28,19 @@
     <ignored path=".idea/encodings.xml" />
     <ignored path=".idea/description.html" />
     <file path="/Percolation.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364367109214" ignored="false" />
-    <file path="/fragment.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364364964178" ignored="false" />
+    <file path="/fragment.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364606829956" ignored="false" />
     <file path="/hellifiknow.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1363669764959" ignored="false" />
     <file path="/PercolationStats.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364359639723" ignored="false" />
     <file path="/PercolationTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364364061112" ignored="false" />
-    <file path="/Dummy.txt" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364364119596" ignored="false" />
+    <file path="/Dummy.txt" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364567222720" ignored="false" />
     <file path="/FileTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1363759682500" ignored="false" />
     <file path="/PercolationVisualizer.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364356040711" ignored="false" />
     <file path="/PercolationVisualizerTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1363760711582" ignored="false" />
     <file path="/PercolationStatsTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1363893584986" ignored="false" />
-    <file path="/Deque.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1363894228406" ignored="false" />
-    <file path="/RandomizedQueue.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1363894630070" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364367165638" ignored="false" />
+    <file path="/Deque.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364605493786" ignored="false" />
+    <file path="/RandomizedQueue.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364606906505" ignored="false" />
+    <file path="/DequeTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364600247061" ignored="false" />
+    <file path="/RandomizedQueueTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364607308427" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +90,50 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/week2test/DequeTest.java" line="133" class="DequeTest" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/week2test/DequeTest.java" line="110" class="DequeTest" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/week2test/DequeTest.java" line="157" class="DequeTest" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -94,28 +142,43 @@
     <favorites_list name="algs4" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Percolation.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/week1/Percolation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="7" selection-start="208" selection-end="208" vertical-scroll-proportion="0.22670025">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PercolationTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week1test/PercolationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="5" selection-start="364" selection-end="364" vertical-scroll-proportion="-3.7692308">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="RandomizedQueue.java" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/week2/RandomizedQueue.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="99" column="16" selection-start="2588" selection-end="2588" vertical-scroll-proportion="0.51834863">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="RandomizedQueueTest.java" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/week2test/RandomizedQueueTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="205" column="52" selection-start="6421" selection-end="6421" vertical-scroll-proportion="7.5">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1554#1563#0" expanded="true" />
+                    <element signature="e#1969#1978#0" expanded="true" />
+                    <element signature="e#2037#2046#0" expanded="true" />
+                    <element signature="e#3192#3201#0" expanded="true" />
+                    <element signature="e#3260#3269#0" expanded="true" />
+                    <element signature="e#6138#6147#0" expanded="true" />
+                    <element signature="e#6206#6215#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -133,22 +196,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/PercolationTest.java" />
-        <option value="$PROJECT_DIR$/src/input20.txt" />
-        <option value="$PROJECT_DIR$/test/FileTest.java" />
-        <option value="$PROJECT_DIR$/src/PercolationVisualizer.java" />
         <option value="$PROJECT_DIR$/test/PercolationVisualizerTest.java" />
         <option value="$PROJECT_DIR$/src/Percolation.java" />
         <option value="$PROJECT_DIR$/src/PercolationStats.java" />
         <option value="$PROJECT_DIR$/src/Deque.java" />
         <option value="$PROJECT_DIR$/test/PercolationStatsTest.java" />
-        <option value="$PROJECT_DIR$/week2/RandomizedQueue.java" />
-        <option value="$PROJECT_DIR$/week2/Subset.java" />
         <option value="$PROJECT_DIR$/week1/PercolationStats.java" />
         <option value="$PROJECT_DIR$/week1test/PercolationTest.java" />
         <option value="$PROJECT_DIR$/week1test/PercolationVisualizer.java" />
         <option value="$PROJECT_DIR$/week1test/PercolationStatsTest.java" />
         <option value="$PROJECT_DIR$/week1/Percolation.java" />
+        <option value="$PROJECT_DIR$/week2/Subset.java" />
+        <option value="$PROJECT_DIR$/week2test/DequeTest.java" />
+        <option value="$PROJECT_DIR$/week2test/RandomizedQueueIterator.java" />
+        <option value="$PROJECT_DIR$/week2/Deque.java" />
+        <option value="$PROJECT_DIR$/week2/RandomizedQueue.java" />
+        <option value="$PROJECT_DIR$/week2test/RandomizedQueueTest.java" />
       </list>
     </option>
   </component>
@@ -183,7 +246,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -230,7 +293,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="week1test" />
+              <option name="myItemId" value="week2test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -248,13 +311,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="week1" />
+              <option name="myItemId" value="week2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,6 +325,7 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
+    <property name="OverrideImplement.combined" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
@@ -294,31 +358,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PercolationVisualizer">
-    <configuration default="false" name="PercolationVisualizer" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="PercolationVisualizer" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="&quot;week1test/input20.txt&quot;" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="algs4" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="PercolationTest" type="TestNG" factoryName="TestNG" temporary="true">
+  <component name="RunManager" selected="TestNG.RandomizedQueueTest.testDequeueRemovesTheSingleItem">
+    <configuration default="false" name="DequeTest" type="TestNG" factoryName="TestNG" temporary="true">
       <module name="algs4" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PercolationTest" />
+      <option name="MAIN_CLASS_NAME" value="DequeTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -341,79 +388,13 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="PercolationTest.testGridPercolates" type="TestNG" factoryName="TestNG" temporary="true">
+    <configuration default="false" name="RandomizedQueueTest" type="TestNG" factoryName="TestNG" temporary="true">
       <module name="algs4" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PercolationTest" />
-      <option name="METHOD_NAME" value="testGridPercolates" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="56622" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <ConfigurationWrapper RunnerId="Debug" />
-      <method />
-    </configuration>
-    <configuration default="false" name="PercolationTest.testGridPercolatesButNoBackLash" type="TestNG" factoryName="TestNG" temporary="true">
-      <module name="algs4" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PercolationTest" />
-      <option name="METHOD_NAME" value="testGridPercolatesButNoBackLash" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="56751" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <ConfigurationWrapper RunnerId="Debug" />
-      <method />
-    </configuration>
-    <configuration default="false" name="PercolationStatsTest" type="TestNG" factoryName="TestNG" temporary="true">
-      <module name="algs4" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PercolationStatsTest" />
+      <option name="MAIN_CLASS_NAME" value="RandomizedQueueTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -432,8 +413,113 @@
       <envs />
       <properties />
       <listeners />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55421" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RandomizedQueueTest.testIteratorShouldReturnAllValuesInQueue" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="algs4" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RandomizedQueueTest" />
+      <option name="METHOD_NAME" value="testIteratorShouldReturnAllValuesInQueue" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56022" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RandomizedQueueTest.testAddThenRemoveThenAddAgain" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="algs4" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RandomizedQueueTest" />
+      <option name="METHOD_NAME" value="testAddThenRemoveThenAddAgain" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56069" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RandomizedQueueTest.testDequeueRemovesTheSingleItem" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="algs4" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RandomizedQueueTest" />
+      <option name="METHOD_NAME" value="testDequeueRemovesTheSingleItem" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56137" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -499,19 +585,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.PercolationVisualizer" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.PercolationTest" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.PercolationTest.testGridPercolates" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.PercolationTest.testGridPercolatesButNoBackLash" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.PercolationStatsTest" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.DequeTest" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.RandomizedQueueTest" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.RandomizedQueueTest.testIteratorShouldReturnAllValuesInQueue" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.RandomizedQueueTest.testAddThenRemoveThenAddAgain" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.RandomizedQueueTest.testDequeueRemovesTheSingleItem" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.PercolationVisualizer" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.PercolationTest" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.PercolationStatsTest" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.PercolationTest.testGridPercolatesButNoBackLash" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.PercolationTest.testGridPercolates" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.RandomizedQueueTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.RandomizedQueueTest.testDequeueRemovesTheSingleItem" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.RandomizedQueueTest.testAddThenRemoveThenAddAgain" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.RandomizedQueueTest.testIteratorShouldReturnAllValuesInQueue" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.DequeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -550,7 +636,7 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40881458" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3237082" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -559,8 +645,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22845529" sideWeight="0.6458967" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35410336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22845529" sideWeight="0.775076" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.275076" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5699088" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -628,56 +714,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/week1/Percolation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="40" selection-start="745" selection-end="773" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week1test/PercolationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="4" selection-start="3355" selection-end="3355" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/io/File.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="11" selection-start="825" selection-end="825" vertical-scroll-proportion="0.33251232" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/stdlib.jar!/In.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="0" selection-start="4360" selection-end="4360" vertical-scroll-proportion="0.4033413" />
-      </provider>
-    </entry>
-    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/io/FileInputStream.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="150" selection-end="150" vertical-scroll-proportion="0.21489972" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/algs4.jar!/RandomSeq.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="384" selection-end="384" vertical-scroll-proportion="0.35714287" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/stdlib.jar!/StdRandom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="22" selection-start="2833" selection-end="2833" vertical-scroll-proportion="-15.807693">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/stdlib.jar!/StdStats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="298" column="27" selection-start="8521" selection-end="8522" vertical-scroll-proportion="-4.730769" />
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/algs4.jar!/QuickFindUF.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -685,9 +721,7 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/algs4.jar!/WeightedQuickUnionUF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="18" selection-start="1086" selection-end="1088" vertical-scroll-proportion="0.60596025">
-          <folding />
-        </state>
+        <state line="33" column="18" selection-start="1086" selection-end="1088" vertical-scroll-proportion="0.60596025" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/week1test/PercolationVisualizer.java">
@@ -701,30 +735,89 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/week1test/PercolationStatsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="73" selection-start="547" selection-end="547" vertical-scroll-proportion="0.30952382">
+        <state line="15" column="73" selection-start="547" selection-end="547" vertical-scroll-proportion="0.30952382" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1test/PercolationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="5" selection-start="364" selection-end="364" vertical-scroll-proportion="0.023734177" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/Percolation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="7" selection-start="208" selection-end="208" vertical-scroll-proportion="0.14240506" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/Subset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkstyle-5.5/site/apidocs/com/puppycrawl/tools/checkstyle/checks/DeclarationCollector.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/week1/PercolationStats.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="44" selection-start="1648" selection-end="1648" vertical-scroll-proportion="0.1904762">
+        <state line="29" column="33" selection-start="961" selection-end="978" vertical-scroll-proportion="0.33157894">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week1test/PercolationTest.java">
+    <entry file="jar://$PROJECT_DIR$/stdlib.jar!/StdRandom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="5" selection-start="364" selection-end="364" vertical-scroll-proportion="-3.7692308">
+        <state line="95" column="22" selection-start="2833" selection-end="2833" vertical-scroll-proportion="0.33251232">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/internal/MethodInvocationHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="38" selection-start="286" selection-end="286" vertical-scroll-proportion="0.36514524">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2test/DequeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="237" column="8" selection-start="7542" selection-end="7542" vertical-scroll-proportion="0.22814499">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/Deque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="9" selection-start="2410" selection-end="2410" vertical-scroll-proportion="0.104477614">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week1/Percolation.java">
+    <entry file="file://$PROJECT_DIR$/week2test/RandomizedQueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="7" selection-start="208" selection-end="208" vertical-scroll-proportion="0.22670025">
+        <state line="205" column="52" selection-start="6421" selection-end="6421" vertical-scroll-proportion="7.5">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1554#1563#0" expanded="true" />
+            <element signature="e#1969#1978#0" expanded="true" />
+            <element signature="e#2037#2046#0" expanded="true" />
+            <element signature="e#3192#3201#0" expanded="true" />
+            <element signature="e#3260#3269#0" expanded="true" />
+            <element signature="e#6138#6147#0" expanded="true" />
+            <element signature="e#6206#6215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/RandomizedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="16" selection-start="2588" selection-end="2588" vertical-scroll-proportion="0.51834863">
           <folding />
         </state>
       </provider>
