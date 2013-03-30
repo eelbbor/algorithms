@@ -77,7 +77,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         private Item[] items;
         private int index = 0;
 
-        protected RandomizedQueueIterator() {
+        private RandomizedQueueIterator() {
             items = (Item[]) new Object[size()];
             for (int i = 0; i < size(); i++) {
                 items[i] = (Item) queue[i];

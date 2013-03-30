@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e895eb1b-8f62-4266-b421-e2f185ff2385" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/week2test/SubsetTest.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2/Deque.java" afterPath="$PROJECT_DIR$/week2/Deque.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2/RandomizedQueue.java" afterPath="$PROJECT_DIR$/week2/RandomizedQueue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2test/RandomizedQueueTest.java" afterPath="$PROJECT_DIR$/week2test/RandomizedQueueTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2/Subset.java" afterPath="$PROJECT_DIR$/week2/Subset.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="algs4.iws" />
@@ -37,10 +38,11 @@
     <file path="/PercolationVisualizer.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364356040711" ignored="false" />
     <file path="/PercolationVisualizerTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1363760711582" ignored="false" />
     <file path="/PercolationStatsTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1363893584986" ignored="false" />
-    <file path="/Deque.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364605493786" ignored="false" />
-    <file path="/RandomizedQueue.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364606906505" ignored="false" />
+    <file path="/Deque.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364608196167" ignored="false" />
+    <file path="/RandomizedQueue.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364608185707" ignored="false" />
     <file path="/DequeTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364600247061" ignored="false" />
     <file path="/RandomizedQueueTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364607308427" ignored="false" />
+    <file path="/Subset.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364608805912" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,43 +144,28 @@
     <favorites_list name="algs4" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="RandomizedQueue.java" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/week2/RandomizedQueue.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="99" column="16" selection-start="2588" selection-end="2588" vertical-scroll-proportion="0.51834863">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="RandomizedQueueTest.java" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/week2test/RandomizedQueueTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="205" column="52" selection-start="6421" selection-end="6421" vertical-scroll-proportion="7.5">
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#1554#1563#0" expanded="true" />
-                    <element signature="e#1969#1978#0" expanded="true" />
-                    <element signature="e#2037#2046#0" expanded="true" />
-                    <element signature="e#3192#3201#0" expanded="true" />
-                    <element signature="e#3260#3269#0" expanded="true" />
-                    <element signature="e#6138#6147#0" expanded="true" />
-                    <element signature="e#6206#6215#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="Subset.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/week2/Subset.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="9" selection-start="301" selection-end="301" vertical-scroll-proportion="0.23385301">
+              <folding>
+                <element signature="e#126#134#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PercolationStats.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week1/PercolationStats.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="70" column="30" selection-start="2194" selection-end="2194" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -206,12 +193,12 @@
         <option value="$PROJECT_DIR$/week1test/PercolationVisualizer.java" />
         <option value="$PROJECT_DIR$/week1test/PercolationStatsTest.java" />
         <option value="$PROJECT_DIR$/week1/Percolation.java" />
-        <option value="$PROJECT_DIR$/week2/Subset.java" />
         <option value="$PROJECT_DIR$/week2test/DequeTest.java" />
         <option value="$PROJECT_DIR$/week2test/RandomizedQueueIterator.java" />
-        <option value="$PROJECT_DIR$/week2/Deque.java" />
-        <option value="$PROJECT_DIR$/week2/RandomizedQueue.java" />
         <option value="$PROJECT_DIR$/week2test/RandomizedQueueTest.java" />
+        <option value="$PROJECT_DIR$/week2/RandomizedQueue.java" />
+        <option value="$PROJECT_DIR$/week2/Deque.java" />
+        <option value="$PROJECT_DIR$/week2/Subset.java" />
       </list>
     </option>
   </component>
@@ -645,7 +632,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22845529" sideWeight="0.775076" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22845529" sideWeight="0.724924" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.275076" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -748,23 +735,9 @@
         <state line="6" column="7" selection-start="208" selection-end="208" vertical-scroll-proportion="0.14240506" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week2/Subset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/checkstyle-5.5/site/apidocs/com/puppycrawl/tools/checkstyle/checks/DeclarationCollector.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week1/PercolationStats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="33" selection-start="961" selection-end="978" vertical-scroll-proportion="0.33157894">
           <folding />
         </state>
       </provider>
@@ -790,15 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week2/Deque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="9" selection-start="2410" selection-end="2410" vertical-scroll-proportion="0.104477614">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/week2test/RandomizedQueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="205" column="52" selection-start="6421" selection-end="6421" vertical-scroll-proportion="7.5">
@@ -817,8 +781,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/week2/RandomizedQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="16" selection-start="2588" selection-end="2588" vertical-scroll-proportion="0.51834863">
+        <state line="91" column="19" selection-start="2297" selection-end="2297" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/Deque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="34" selection-start="2539" selection-end="2539" vertical-scroll-proportion="1.9420935">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/PercolationStats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="30" selection-start="2194" selection-end="2194" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/stdlib.jar!/StdIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="33" selection-start="2333" selection-end="2340" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/Subset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="9" selection-start="301" selection-end="301" vertical-scroll-proportion="0.23385301">
+          <folding>
+            <element signature="e#126#134#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

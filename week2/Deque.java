@@ -98,7 +98,7 @@ public class Deque<Item> implements Iterable<Item> {
     private class DequeIterator<Item> implements Iterator<Item> {
         private int index = 0;
 
-        protected DequeIterator() {
+        private DequeIterator() {
             this.index = head;
         }
 
