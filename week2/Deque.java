@@ -18,10 +18,6 @@ public class Deque<Item> implements Iterable<Item> {
         return tail - head;
     }
 
-    protected int getDequeCurrentCapacity() {
-        return deque.length;
-    }
-
     public void addFirst(Item item) {
         addItem(item, true);
     }

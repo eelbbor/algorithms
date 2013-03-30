@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e895eb1b-8f62-4266-b421-e2f185ff2385" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week2test/SubsetTest.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2/Deque.java" afterPath="$PROJECT_DIR$/week2/Deque.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2test/DequeTest.java" afterPath="$PROJECT_DIR$/week2test/DequeTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2/RandomizedQueue.java" afterPath="$PROJECT_DIR$/week2/RandomizedQueue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2/Subset.java" afterPath="$PROJECT_DIR$/week2/Subset.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2test/RandomizedQueueTest.java" afterPath="$PROJECT_DIR$/week2test/RandomizedQueueTest.java" />
     </list>
     <ignored path="algs4.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,10 +37,10 @@
     <file path="/PercolationVisualizer.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364356040711" ignored="false" />
     <file path="/PercolationVisualizerTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1363760711582" ignored="false" />
     <file path="/PercolationStatsTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1363893584986" ignored="false" />
-    <file path="/Deque.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364608196167" ignored="false" />
+    <file path="/Deque.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364609591048" ignored="false" />
     <file path="/RandomizedQueue.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364608185707" ignored="false" />
     <file path="/DequeTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364600247061" ignored="false" />
-    <file path="/RandomizedQueueTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364607308427" ignored="false" />
+    <file path="/RandomizedQueueTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364609788747" ignored="false" />
     <file path="/Subset.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364608805912" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -145,22 +144,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Subset.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/week2/Subset.java">
+      <file leaf-file-name="RandomizedQueue.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week2/RandomizedQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="9" selection-start="301" selection-end="301" vertical-scroll-proportion="0.23385301">
+            <state line="53" column="26" selection-start="1323" selection-end="1323" vertical-scroll-proportion="-30.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Deque.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/week2/Deque.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="36" selection-start="306" selection-end="306" vertical-scroll-proportion="0.42553192">
               <folding>
-                <element signature="e#126#134#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PercolationStats.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week1/PercolationStats.java">
+      <file leaf-file-name="DequeTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week2test/DequeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="30" selection-start="2194" selection-end="2194" vertical-scroll-proportion="0.0">
+            <state line="147" column="8" selection-start="4539" selection-end="4539" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RandomizedQueueTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week2test/RandomizedQueueTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="134" column="52" selection-start="4175" selection-end="4175" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1554#1563#0" expanded="true" />
+                <element signature="e#1969#1978#0" expanded="true" />
+                <element signature="e#2037#2046#0" expanded="true" />
+                <element signature="e#3196#3205#0" expanded="true" />
+                <element signature="e#3264#3273#0" expanded="true" />
+                <element signature="e#6159#6168#0" expanded="true" />
+                <element signature="e#6227#6236#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -193,12 +219,12 @@
         <option value="$PROJECT_DIR$/week1test/PercolationVisualizer.java" />
         <option value="$PROJECT_DIR$/week1test/PercolationStatsTest.java" />
         <option value="$PROJECT_DIR$/week1/Percolation.java" />
-        <option value="$PROJECT_DIR$/week2test/DequeTest.java" />
         <option value="$PROJECT_DIR$/week2test/RandomizedQueueIterator.java" />
-        <option value="$PROJECT_DIR$/week2test/RandomizedQueueTest.java" />
-        <option value="$PROJECT_DIR$/week2/RandomizedQueue.java" />
-        <option value="$PROJECT_DIR$/week2/Deque.java" />
         <option value="$PROJECT_DIR$/week2/Subset.java" />
+        <option value="$PROJECT_DIR$/week2/Deque.java" />
+        <option value="$PROJECT_DIR$/week2/RandomizedQueue.java" />
+        <option value="$PROJECT_DIR$/week2test/DequeTest.java" />
+        <option value="$PROJECT_DIR$/week2test/RandomizedQueueTest.java" />
       </list>
     </option>
   </component>
@@ -345,7 +371,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RandomizedQueueTest.testDequeueRemovesTheSingleItem">
+  <component name="RunManager" selected="TestNG.DequeTest">
     <configuration default="false" name="DequeTest" type="TestNG" factoryName="TestNG" temporary="true">
       <module name="algs4" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -580,11 +606,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.RandomizedQueueTest" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.RandomizedQueueTest.testDequeueRemovesTheSingleItem" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.RandomizedQueueTest.testAddThenRemoveThenAddAgain" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.RandomizedQueueTest.testIteratorShouldReturnAllValuesInQueue" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.DequeTest" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.DequeTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.RandomizedQueueTest" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.RandomizedQueueTest.testDequeueRemovesTheSingleItem" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.RandomizedQueueTest.testAddThenRemoveThenAddAgain" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.RandomizedQueueTest.testIteratorShouldReturnAllValuesInQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -756,45 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week2test/DequeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="237" column="8" selection-start="7542" selection-end="7542" vertical-scroll-proportion="0.22814499">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week2test/RandomizedQueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="205" column="52" selection-start="6421" selection-end="6421" vertical-scroll-proportion="7.5">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1554#1563#0" expanded="true" />
-            <element signature="e#1969#1978#0" expanded="true" />
-            <element signature="e#2037#2046#0" expanded="true" />
-            <element signature="e#3192#3201#0" expanded="true" />
-            <element signature="e#3260#3269#0" expanded="true" />
-            <element signature="e#6138#6147#0" expanded="true" />
-            <element signature="e#6206#6215#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week2/RandomizedQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="19" selection-start="2297" selection-end="2297" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week2/Deque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="34" selection-start="2539" selection-end="2539" vertical-scroll-proportion="1.9420935">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/week1/PercolationStats.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="70" column="30" selection-start="2194" selection-end="2194" vertical-scroll-proportion="0.0">
@@ -814,6 +801,45 @@
         <state line="7" column="9" selection-start="301" selection-end="301" vertical-scroll-proportion="0.23385301">
           <folding>
             <element signature="e#126#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2test/DequeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="147" column="8" selection-start="4539" selection-end="4539" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2test/RandomizedQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="134" column="52" selection-start="4175" selection-end="4175" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1554#1563#0" expanded="true" />
+            <element signature="e#1969#1978#0" expanded="true" />
+            <element signature="e#2037#2046#0" expanded="true" />
+            <element signature="e#3196#3205#0" expanded="true" />
+            <element signature="e#3264#3273#0" expanded="true" />
+            <element signature="e#6159#6168#0" expanded="true" />
+            <element signature="e#6227#6236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/RandomizedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="26" selection-start="1323" selection-end="1323" vertical-scroll-proportion="-30.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/Deque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="36" selection-start="306" selection-end="306" vertical-scroll-proportion="0.42553192">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -52,20 +52,12 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         queue = newQueue;
     }
 
-    protected int getCurrentCapacity() {
-        return queue.length;
-    }
-
     private int getRandomIndex() {
         if (isEmpty()) {
             throw new NoSuchElementException(
                     "Cannot sample or remove item from empty Queue");
         }
         return StdRandom.uniform(size());
-    }
-
-    protected Item getItemAtIndex(int index) {
-        return queue[index];
     }
 
     @Override
