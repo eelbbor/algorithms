@@ -32,26 +32,25 @@ public class Brute {
         }
     }
 
-    private void drawCombination(int pt1, int pt2, int pt3, int pt4) {
+    private void drawCombination(int... ptIndexes) {
         double penRadius = StdDraw.getPenRadius();
         StdDraw.setPenRadius(2 * penRadius);
         StdDraw.setXscale(0, 32768);
         StdDraw.setYscale(0, 32768);
-        points[pt1].draw();
-        points[pt2].draw();
-        points[pt3].draw();
-        points[pt4].draw();
+        for (int i = 0; i < ptIndexes.length; i++) {
+            points[ptIndexes[i]].draw();
+        }
         StdDraw.setPenRadius(penRadius);
-        points[pt1].drawTo(points[pt4]);
+        points[ptIndexes[0]].drawTo(points[ptIndexes[ptIndexes.length - 1]]);
         StdDraw.show();
     }
 
-    private String getOutputString(int pt1, int pt2, int pt3, int pt4) {
-        return String.format("%s -> %s -> %s -> %s",
-                points[pt1].toString(),
-                points[pt2].toString(),
-                points[pt3].toString(),
-                points[pt4].toString());
+    private String getOutputString(int... ptIndexes) {
+        StringBuffer buffer = new StringBuffer(points[ptIndexes[0]].toString());
+        for (int i = 1; i < ptIndexes.length; i++) {
+            buffer.append(" -> " + points[ptIndexes[i]].toString());
+        }
+        return buffer.toString();
     }
 
     public static void main(String[] args) {
