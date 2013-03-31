@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e895eb1b-8f62-4266-b421-e2f185ff2385" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2/Deque.java" afterPath="$PROJECT_DIR$/week2/Deque.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2test/DequeTest.java" afterPath="$PROJECT_DIR$/week2test/DequeTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2/RandomizedQueue.java" afterPath="$PROJECT_DIR$/week2/RandomizedQueue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2test/RandomizedQueueTest.java" afterPath="$PROJECT_DIR$/week2test/RandomizedQueueTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week3/Point.java" afterPath="$PROJECT_DIR$/week3/Point.java" />
     </list>
     <ignored path="algs4.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,11 +25,11 @@
     <ignored path=".idea/encodings.xml" />
     <ignored path=".idea/description.html" />
     <file path="/Percolation.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364367109214" ignored="false" />
-    <file path="/fragment.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364606829956" ignored="false" />
+    <file path="/fragment.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364699660671" ignored="false" />
     <file path="/hellifiknow.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1363669764959" ignored="false" />
     <file path="/PercolationStats.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364359639723" ignored="false" />
     <file path="/PercolationTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364364061112" ignored="false" />
-    <file path="/Dummy.txt" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364567222720" ignored="false" />
+    <file path="/Dummy.txt" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364693435929" ignored="false" />
     <file path="/FileTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1363759682500" ignored="false" />
     <file path="/PercolationVisualizer.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364356040711" ignored="false" />
     <file path="/PercolationVisualizerTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1363760711582" ignored="false" />
@@ -42,6 +39,8 @@
     <file path="/DequeTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364600247061" ignored="false" />
     <file path="/RandomizedQueueTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364609788747" ignored="false" />
     <file path="/Subset.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364608805912" ignored="false" />
+    <file path="/Point.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364699470271" ignored="false" />
+    <file path="/PointTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364699972744" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,8 +70,8 @@
         <option name="CONDITION_ENABLED" value="true" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -87,54 +86,10 @@
         <option name="CONDITION_ENABLED" value="true" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/week2test/DequeTest.java" line="133" class="DequeTest" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/week2test/DequeTest.java" line="110" class="DequeTest" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/week2test/DequeTest.java" line="157" class="DequeTest" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -144,48 +99,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RandomizedQueue.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week2/RandomizedQueue.java">
+      <file leaf-file-name="Point.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/week3/Point.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="26" selection-start="1323" selection-end="1323" vertical-scroll-proportion="-30.0">
+            <state line="37" column="39" selection-start="848" selection-end="848" vertical-scroll-proportion="0.9031477">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Deque.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/week2/Deque.java">
+      <file leaf-file-name="PointTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week3test/PointTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="36" selection-start="306" selection-end="306" vertical-scroll-proportion="0.42553192">
+            <state line="28" column="26" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DequeTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week2test/DequeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="147" column="8" selection-start="4539" selection-end="4539" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RandomizedQueueTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week2test/RandomizedQueueTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="134" column="52" selection-start="4175" selection-end="4175" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1554#1563#0" expanded="true" />
-                <element signature="e#1969#1978#0" expanded="true" />
-                <element signature="e#2037#2046#0" expanded="true" />
-                <element signature="e#3196#3205#0" expanded="true" />
-                <element signature="e#3264#3273#0" expanded="true" />
-                <element signature="e#6159#6168#0" expanded="true" />
-                <element signature="e#6227#6236#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -209,8 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/PercolationVisualizerTest.java" />
-        <option value="$PROJECT_DIR$/src/Percolation.java" />
         <option value="$PROJECT_DIR$/src/PercolationStats.java" />
         <option value="$PROJECT_DIR$/src/Deque.java" />
         <option value="$PROJECT_DIR$/test/PercolationStatsTest.java" />
@@ -225,6 +151,8 @@
         <option value="$PROJECT_DIR$/week2/RandomizedQueue.java" />
         <option value="$PROJECT_DIR$/week2test/DequeTest.java" />
         <option value="$PROJECT_DIR$/week2test/RandomizedQueueTest.java" />
+        <option value="$PROJECT_DIR$/week3test/PointTest.java" />
+        <option value="$PROJECT_DIR$/week3/Point.java" />
       </list>
     </option>
   </component>
@@ -306,7 +234,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="week2test" />
+              <option name="myItemId" value="week3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -324,7 +252,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="week2" />
+              <option name="myItemId" value="week1test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -334,7 +262,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_directory_selection" value="$PROJECT_DIR$/weekone" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/week3test" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
@@ -349,19 +277,16 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+    <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -370,8 +295,11 @@
       <recent name="$PROJECT_DIR$/test/weekone" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.DequeTest">
+  <component name="RunManager" selected="TestNG.PointTest">
     <configuration default="false" name="DequeTest" type="TestNG" factoryName="TestNG" temporary="true">
       <module name="algs4" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -401,13 +329,13 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="RandomizedQueueTest" type="TestNG" factoryName="TestNG" temporary="true">
+    <configuration default="false" name="PointTest" type="TestNG" factoryName="TestNG" temporary="true">
       <module name="algs4" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RandomizedQueueTest" />
+      <option name="MAIN_CLASS_NAME" value="PointTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -427,7 +355,7 @@
       <properties />
       <listeners />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="55421" />
+        <option name="DEBUG_PORT" value="60936" />
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
@@ -436,14 +364,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="RandomizedQueueTest.testIteratorShouldReturnAllValuesInQueue" type="TestNG" factoryName="TestNG" temporary="true">
+    <configuration default="false" name="PointTest.testPointSlopeRelativeToPointIsNegative" type="TestNG" factoryName="TestNG" temporary="true">
       <module name="algs4" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RandomizedQueueTest" />
-      <option name="METHOD_NAME" value="testIteratorShouldReturnAllValuesInQueue" />
+      <option name="MAIN_CLASS_NAME" value="PointTest" />
+      <option name="METHOD_NAME" value="testPointSlopeRelativeToPointIsNegative" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" />
@@ -462,21 +390,21 @@
       <properties />
       <listeners />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="56022" />
+        <option name="DEBUG_PORT" value="60489" />
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
       <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
-    <configuration default="false" name="RandomizedQueueTest.testAddThenRemoveThenAddAgain" type="TestNG" factoryName="TestNG" temporary="true">
+    <configuration default="false" name="PointTest.testPointToStringIsFormattedCorrectly" type="TestNG" factoryName="TestNG" temporary="true">
       <module name="algs4" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RandomizedQueueTest" />
-      <option name="METHOD_NAME" value="testAddThenRemoveThenAddAgain" />
+      <option name="MAIN_CLASS_NAME" value="PointTest" />
+      <option name="METHOD_NAME" value="testPointToStringIsFormattedCorrectly" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" />
@@ -495,21 +423,21 @@
       <properties />
       <listeners />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="56069" />
+        <option name="DEBUG_PORT" value="60614" />
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
       <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
-    <configuration default="false" name="RandomizedQueueTest.testDequeueRemovesTheSingleItem" type="TestNG" factoryName="TestNG" temporary="true">
+    <configuration default="false" name="PointTest.testComparatorForPoint" type="TestNG" factoryName="TestNG" temporary="true">
       <module name="algs4" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RandomizedQueueTest" />
-      <option name="METHOD_NAME" value="testDequeueRemovesTheSingleItem" />
+      <option name="MAIN_CLASS_NAME" value="PointTest" />
+      <option name="METHOD_NAME" value="testComparatorForPoint" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" />
@@ -528,7 +456,7 @@
       <properties />
       <listeners />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="56137" />
+        <option name="DEBUG_PORT" value="60709" />
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
@@ -599,18 +527,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="TestNG.DequeTest" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.RandomizedQueueTest" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.RandomizedQueueTest.testIteratorShouldReturnAllValuesInQueue" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.RandomizedQueueTest.testAddThenRemoveThenAddAgain" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.RandomizedQueueTest.testDequeueRemovesTheSingleItem" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.PointTest" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.PointTest.testPointSlopeRelativeToPointIsNegative" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.PointTest.testPointToStringIsFormattedCorrectly" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.PointTest.testComparatorForPoint" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.DequeTest" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.RandomizedQueueTest" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.RandomizedQueueTest.testDequeueRemovesTheSingleItem" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.RandomizedQueueTest.testAddThenRemoveThenAddAgain" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.RandomizedQueueTest.testIteratorShouldReturnAllValuesInQueue" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.PointTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.PointTest.testComparatorForPoint" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.PointTest.testPointToStringIsFormattedCorrectly" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.PointTest.testPointSlopeRelativeToPointIsNegative" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.DequeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -648,21 +576,21 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4969605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5699088" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3237082" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39513677" sideWeight="0.9958042" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22845529" sideWeight="0.724924" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.275076" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35933504" sideWeight="0.6048632" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27659574" sideWeight="0.98455286" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5699088" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -720,64 +648,25 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/algs4.jar!/QuickFindUF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/algs4.jar!/WeightedQuickUnionUF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="18" selection-start="1086" selection-end="1088" vertical-scroll-proportion="0.60596025" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week1test/PercolationVisualizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="41" selection-start="2298" selection-end="2298" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week1test/PercolationStatsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="73" selection-start="547" selection-end="547" vertical-scroll-proportion="0.30952382" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week1test/PercolationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="5" selection-start="364" selection-end="364" vertical-scroll-proportion="0.023734177" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week1/Percolation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="7" selection-start="208" selection-end="208" vertical-scroll-proportion="0.14240506" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/checkstyle-5.5/site/apidocs/com/puppycrawl/tools/checkstyle/checks/DeclarationCollector.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/stdlib.jar!/StdRandom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="95" column="22" selection-start="2833" selection-end="2833" vertical-scroll-proportion="0.33251232">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/internal/MethodInvocationHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="38" selection-start="286" selection-end="286" vertical-scroll-proportion="0.36514524">
           <folding />
         </state>
       </provider>
@@ -791,9 +680,7 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/stdlib.jar!/StdIn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="33" selection-start="2333" selection-end="2340" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="61" column="33" selection-start="2333" selection-end="2340" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/week2/Subset.java">
@@ -801,29 +688,6 @@
         <state line="7" column="9" selection-start="301" selection-end="301" vertical-scroll-proportion="0.23385301">
           <folding>
             <element signature="e#126#134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week2test/DequeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="8" selection-start="4539" selection-end="4539" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week2test/RandomizedQueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="52" selection-start="4175" selection-end="4175" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1554#1563#0" expanded="true" />
-            <element signature="e#1969#1978#0" expanded="true" />
-            <element signature="e#2037#2046#0" expanded="true" />
-            <element signature="e#3196#3205#0" expanded="true" />
-            <element signature="e#3264#3273#0" expanded="true" />
-            <element signature="e#6159#6168#0" expanded="true" />
-            <element signature="e#6227#6236#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -841,6 +705,82 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2test/DequeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="147" column="8" selection-start="4539" selection-end="4539" vertical-scroll-proportion="0.13363029">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2test/RandomizedQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="134" column="52" selection-start="4175" selection-end="4175" vertical-scroll-proportion="0.66815144">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1554#1563#0" expanded="true" />
+            <element signature="e#1969#1978#0" expanded="true" />
+            <element signature="e#2037#2046#0" expanded="true" />
+            <element signature="e#3196#3205#0" expanded="true" />
+            <element signature="e#3264#3273#0" expanded="true" />
+            <element signature="e#6159#6168#0" expanded="true" />
+            <element signature="e#6227#6236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/Double.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="31" selection-start="273" selection-end="273" vertical-scroll-proportion="0.20642202">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/internal/MethodInvocationHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="38" selection-start="286" selection-end="286" vertical-scroll-proportion="0.35843372">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/stdlib.jar!/Draw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="19" selection-start="1822" selection-end="1822" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1test/PercolationVisualizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="13" selection-start="840" selection-end="840" vertical-scroll-proportion="0.29910713">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week3test/PointTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="26" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/stdlib.jar!/StdDraw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="386" column="23" selection-start="13835" selection-end="13835" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week3/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="39" selection-start="848" selection-end="848" vertical-scroll-proportion="0.9031477">
+          <folding />
         </state>
       </provider>
     </entry>
