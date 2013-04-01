@@ -1,17 +1,13 @@
 import java.util.Arrays;
 
 public class Fast {
-    private Point[] points;
-
-    public Fast(Point... points) {
-        this.points = points;
-        Arrays.sort(this.points);
-    }
-
-    public void processPoints(StringBuffer buffer) {
+    private static void processPoints(Point[] points, StringBuffer buffer) {
         if (points.length < 4) {
             return;
         }
+        StdDraw.setXscale(0, 32768);
+        StdDraw.setYscale(0, 32768);
+        Arrays.sort(points);
         Point origin;
         for (int i = 0; i < points.length; i++) {
             origin = points[i];
@@ -21,24 +17,24 @@ public class Fast {
             for (int j = 1; j < points.length; j++) {
                 if (origin.slopeTo(points[j]) != baseSlope) {
                     if (j - startIndex >= 3) {
-                        handleOutputForLine(buffer, startIndex, j - 1);
+                        handleOutputForLine(points, buffer, startIndex, j - 1);
                     }
                     startIndex = j;
                     baseSlope = origin.slopeTo(points[startIndex]);
                 }
             }
             if (points.length - startIndex >= 3) {
-                handleOutputForLine(buffer, startIndex, points.length - 1);
+                handleOutputForLine(points, buffer, startIndex, points.length - 1);
             }
-            Arrays.sort(this.points);
+            Arrays.sort(points);
         }
     }
 
-    private void handleOutputForLine(StringBuffer buffer,
-                                     int startIndex, int endIndex) {
+    private static void handleOutputForLine(Point[] points, StringBuffer buffer,
+                                            int startIndex, int endIndex) {
         if (points[0].compareTo(points[startIndex]) == -1) {
-            drawCombination(startIndex, endIndex);
-            String outputString = getOutputString(startIndex, endIndex)
+            drawCombination(points, startIndex, endIndex);
+            String outputString = getOutputString(points, startIndex, endIndex)
                     + "\n";
             System.out.print(outputString);
             if (buffer != null) {
@@ -47,21 +43,18 @@ public class Fast {
         }
     }
 
-    private void drawCombination(int startIndex, int endIndex) {
-        double penRadius = StdDraw.getPenRadius();
-        StdDraw.setPenRadius(2 * penRadius);
-        StdDraw.setXscale(0, 32768);
-        StdDraw.setYscale(0, 32768);
+    private static void drawCombination(Point[] points,
+                                        int startIndex, int endIndex) {
         points[0].draw();
         for (int i = startIndex; i <= endIndex; i++) {
             points[i].draw();
         }
-        StdDraw.setPenRadius(penRadius);
         points[0].drawTo(points[endIndex]);
         StdDraw.show();
     }
 
-    private String getOutputString(int startIndex, int endIndex) {
+    private static String getOutputString(Point[] points,
+                                          int startIndex, int endIndex) {
         StringBuffer buffer = new StringBuffer(points[0].toString());
         for (int i = startIndex; i <= endIndex; i++) {
             buffer.append(" -> " + points[i].toString());
@@ -76,7 +69,6 @@ public class Fast {
         for (int i = 0; i < N; i++) {
             points[i] = new Point(in.readInt(), in.readInt());
         }
-        Fast fast = new Fast(points);
-        fast.processPoints(null);
+        processPoints(points, null);
     }
 }

@@ -16,46 +16,46 @@ public class BruteTest {
     }
 
     public void testWithSinglePointGetsNoResult() {
-        Brute brute = new Brute(new Point(0, 0));
+        Point[] points = {new Point(0, 0)};
         StringBuffer buffer = new StringBuffer();
-        brute.processPoints(buffer);
+        Brute.processPoints(points, buffer);
         assertEquals(buffer.length(), 0);
     }
 
     public void testWithTwoPointGetsNoResult() {
-        Brute brute = new Brute(new Point(0, 0)
-                , new Point(1, 1));
+        Point[] points = {new Point(0, 0)
+                , new Point(1, 1)};
         StringBuffer buffer = new StringBuffer();
-        brute.processPoints(buffer);
+        Brute.processPoints(points, buffer);
         assertEquals(buffer.length(), 0);
     }
 
     public void testWithThreePointGetsNoResult() {
-        Brute brute = new Brute(new Point(0, 0)
+        Point[] points = {new Point(0, 0)
                 , new Point(1, 1)
-                , new Point(2, 2));
+                , new Point(2, 2)};
         StringBuffer buffer = new StringBuffer();
-        brute.processPoints(buffer);
+        Brute.processPoints(points, buffer);
         assertEquals(buffer.length(), 0);
     }
 
     public void testWithoutCollinearPointGetsNoResult() {
-        Brute brute = new Brute(new Point(0, 0)
+        Point[] points = {new Point(0, 0)
                 , new Point(1, 1)
                 , new Point(2, 2)
-                , new Point(2, 3));
+                , new Point(2, 3)};
         StringBuffer buffer = new StringBuffer();
-        brute.processPoints(buffer);
+        Brute.processPoints(points, buffer);
         assertEquals(buffer.length(), 0);
     }
 
     public void testWithFourCollinearPointGetsAResult() {
-        Brute brute = new Brute(new Point(0, 0)
+        Point[] points = {new Point(0, 0)
                 , new Point(1, 1)
                 , new Point(2, 2)
-                , new Point(3, 3));
+                , new Point(3, 3)};
         StringBuffer buffer = new StringBuffer();
-        brute.processPoints(buffer);
+        Brute.processPoints(points, buffer);
         assertTrue(buffer.length() > 0);
         String[] output = buffer.toString().split("\n");
         assertEquals(output.length, 1);
@@ -63,13 +63,13 @@ public class BruteTest {
     }
 
     public void testWithFiveCollinearPointGetsAResult() {
-        Brute brute = new Brute(new Point(3333, 3333)
+        Point[] points = {new Point(3333, 3333)
                 , new Point(1, 1)
                 , new Point(99, 99)
                 , new Point(34, 34)
-                , new Point(27, 27));
+                , new Point(27, 27)};
         StringBuffer buffer = new StringBuffer();
-        brute.processPoints(buffer);
+        Brute.processPoints(points, buffer);
         assertTrue(buffer.length() > 0);
         String[] output = buffer.toString().split("\n");
         assertEquals(output.length, 5);
@@ -81,14 +81,14 @@ public class BruteTest {
     }
 
     public void testBruteWith6Points() {
-        Brute brute = new Brute(new Point(19000, 10000)
+        Point[] points = {new Point(19000, 10000)
                 , new Point(18000, 10000)
                 , new Point(32000, 10000)
                 , new Point(21000, 10000)
                 , new Point(1234, 5678)
-                , new Point(14000, 10000));
+                , new Point(14000, 10000)};
         StringBuffer buffer = new StringBuffer();
-        brute.processPoints(buffer);
+        Brute.processPoints(points, buffer);
         assertTrue(buffer.length() > 0);
         String[] output = buffer.toString().split("\n");
         assertEquals(output.length, 5);
@@ -100,16 +100,16 @@ public class BruteTest {
     }
 
     public void testBruteWith8Points() {
-        Brute brute = new Brute(new Point(10000, 0)
+        Point[] points = {new Point(10000, 0)
                 , new Point(0, 10000)
                 , new Point(3000, 7000)
                 , new Point(7000, 3000)
                 , new Point(20000, 21000)
                 , new Point(3000, 4000)
                 , new Point(14000, 15000)
-                , new Point(6000, 7000));
+                , new Point(6000, 7000)};
         StringBuffer buffer = new StringBuffer();
-        brute.processPoints(buffer);
+        Brute.processPoints(points, buffer);
         assertTrue(buffer.length() > 0);
         String[] output = buffer.toString().split("\n");
         assertEquals(output.length, 2);

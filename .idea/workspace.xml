@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e895eb1b-8f62-4266-b421-e2f185ff2385" name="Default" comment="" />
+    <list default="true" id="e895eb1b-8f62-4266-b421-e2f185ff2385" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week3/Brute.java" afterPath="$PROJECT_DIR$/week3/Brute.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week3/Fast.java" afterPath="$PROJECT_DIR$/week3/Fast.java" />
+    </list>
     <ignored path="algs4.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="checkstyle-5.5/" />
@@ -39,11 +42,11 @@
     <file path="/Subset.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364608805912" ignored="false" />
     <file path="/Point.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364699470271" ignored="false" />
     <file path="/PointTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364699972744" ignored="false" />
-    <file path="/Brute.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364745966596" ignored="false" />
-    <file path="/BruteTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364766961233" ignored="false" />
-    <file path="/Fast.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364772421994" ignored="false" />
+    <file path="/Brute.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364775415221" ignored="false" />
+    <file path="/BruteTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364774515842" ignored="false" />
+    <file path="/Fast.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364775410692" ignored="false" />
     <file path="/*.regexp" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364749028658" ignored="false" />
-    <file path="/FastTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364770056700" ignored="false" />
+    <file path="/FastTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364774626851" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,22 +105,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Fast.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/week3/Fast.java">
+      <file leaf-file-name="Brute.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/week3/Brute.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="37" selection-start="1237" selection-end="1237" vertical-scroll-proportion="0.53268766">
-              <folding />
+            <state line="47" column="4" selection-start="1926" selection-end="1926" vertical-scroll-proportion="0.4074074">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FastTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week3test/FastTest.java">
+      <file leaf-file-name="Fast.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week3/Fast.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="0" selection-start="3800" selection-end="3800" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="64" column="4" selection-start="2378" selection-end="2378" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -152,10 +155,10 @@
         <option value="$PROJECT_DIR$/week3/Point.java" />
         <option value="$PROJECT_DIR$/week3test/input.txt" />
         <option value="$PROJECT_DIR$/week3test/input8.txt" />
-        <option value="$PROJECT_DIR$/week3/Brute.java" />
         <option value="$PROJECT_DIR$/week3test/BruteTest.java" />
         <option value="$PROJECT_DIR$/week3test/FastTest.java" />
         <option value="$PROJECT_DIR$/week3/Fast.java" />
+        <option value="$PROJECT_DIR$/week3/Brute.java" />
       </list>
     </option>
   </component>
@@ -302,104 +305,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FastTest.testFastWith8Points">
-    <configuration default="false" name="FastTest.testFastMainWith6" type="TestNG" factoryName="TestNG" temporary="true">
-      <module name="algs4" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FastTest" />
-      <option name="METHOD_NAME" value="testFastMainWith6" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="FastTest.testWithFourCollinearPointGetsAResult" type="TestNG" factoryName="TestNG" temporary="true">
-      <module name="algs4" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FastTest" />
-      <option name="METHOD_NAME" value="testWithFourCollinearPointGetsAResult" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="49921" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="FastTest.testWithFiveCollinearPointGetsSingleResult" type="TestNG" factoryName="TestNG" temporary="true">
-      <module name="algs4" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FastTest" />
-      <option name="METHOD_NAME" value="testWithFiveCollinearPointGetsSingleResult" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="49932" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <ConfigurationWrapper RunnerId="Debug" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="TestNG.FastTest">
     <configuration default="false" name="FastTest.testFastWith6Points" type="TestNG" factoryName="TestNG" temporary="true">
       <module name="algs4" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -466,6 +372,93 @@
       <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
+    <configuration default="false" name="BruteTest" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="algs4" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BruteTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FastTest" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="algs4" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FastTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BruteTest.testBruteWith6Points" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="algs4" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BruteTest" />
+      <option name="METHOD_NAME" value="testBruteWith6Points" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -529,19 +522,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.FastTest.testFastMainWith6" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.FastTest.testWithFourCollinearPointGetsAResult" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.FastTest.testWithFiveCollinearPointGetsSingleResult" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.FastTest.testFastWith6Points" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.FastTest.testFastWith8Points" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.FastTest.testFastWith6Points" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.FastTest.testFastWith8Points" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.BruteTest" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.FastTest" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.BruteTest.testBruteWith6Points" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.FastTest.testFastWith8Points" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.FastTest.testFastWith6Points" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.FastTest.testWithFiveCollinearPointGetsSingleResult" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.FastTest.testWithFourCollinearPointGetsAResult" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.FastTest.testFastMainWith6" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.FastTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.BruteTest" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.BruteTest.testBruteWith6Points" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.FastTest.testFastWith8Points" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.FastTest.testFastWith6Points" />
       </list>
     </recent_temporary>
   </component>
@@ -585,13 +578,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2300813" sideWeight="0.48480242" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.342812" sideWeight="0.99430895" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3419453" sideWeight="0.99430895" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -752,16 +745,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/week3test/BruteTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="5" selection-start="2080" selection-end="2975" vertical-scroll-proportion="0.9204244">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week3/Brute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="294" selection-end="294" vertical-scroll-proportion="0.1510574">
+        <state line="11" column="5" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -770,7 +754,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/week3test/FastTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="0" selection-start="3800" selection-end="3800" vertical-scroll-proportion="0.0">
+        <state line="16" column="18" selection-start="397" selection-end="397" vertical-scroll-proportion="0.19012345">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -779,8 +763,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/week3/Fast.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="37" selection-start="1237" selection-end="1237" vertical-scroll-proportion="0.53268766">
+        <state line="64" column="4" selection-start="2378" selection-end="2378" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week3/Brute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="4" selection-start="1926" selection-end="1926" vertical-scroll-proportion="0.4074074">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
