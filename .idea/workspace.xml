@@ -42,9 +42,9 @@
     <file path="/Subset.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364608805912" ignored="false" />
     <file path="/Point.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364699470271" ignored="false" />
     <file path="/PointTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364699972744" ignored="false" />
-    <file path="/Brute.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364775415221" ignored="false" />
+    <file path="/Brute.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364776340719" ignored="false" />
     <file path="/BruteTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364774515842" ignored="false" />
-    <file path="/Fast.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364775410692" ignored="false" />
+    <file path="/Fast.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364776374415" ignored="false" />
     <file path="/*.regexp" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364749028658" ignored="false" />
     <file path="/FastTest.java" changelist="e895eb1b-8f62-4266-b421-e2f185ff2385" time="1364774626851" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -105,10 +105,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Brute.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Brute.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/week3/Brute.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="4" selection-start="1926" selection-end="1926" vertical-scroll-proportion="0.4074074">
+            <state line="6" column="16" selection-start="198" selection-end="198" vertical-scroll-proportion="-3.4615386">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,11 +116,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fast.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="BruteTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week3test/BruteTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="5" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Fast.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/week3/Fast.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="4" selection-start="2378" selection-end="2378" vertical-scroll-proportion="0.0">
+            <state line="10" column="38" selection-start="310" selection-end="310" vertical-scroll-proportion="0.39577836">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FastTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week3test/FastTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="12" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -754,7 +776,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/week3test/FastTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="18" selection-start="397" selection-end="397" vertical-scroll-proportion="0.19012345">
+        <state line="23" column="12" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week3/Brute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="16" selection-start="198" selection-end="198" vertical-scroll-proportion="-3.4615386">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -763,17 +794,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/week3/Fast.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="4" selection-start="2378" selection-end="2378" vertical-scroll-proportion="0.0">
+        <state line="10" column="38" selection-start="310" selection-end="310" vertical-scroll-proportion="0.39577836">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week3/Brute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="4" selection-start="1926" selection-end="1926" vertical-scroll-proportion="0.4074074">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

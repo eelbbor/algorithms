@@ -33,7 +33,7 @@ public class Fast {
     private static void handleOutputForLine(Point[] points, StringBuffer buffer,
                                             int startIndex, int endIndex) {
         if (points[0].compareTo(points[startIndex]) == -1) {
-            drawCombination(points, startIndex, endIndex);
+            points[0].drawTo(points[endIndex]);
             String outputString = getOutputString(points, startIndex, endIndex)
                     + "\n";
             System.out.print(outputString);
@@ -41,16 +41,6 @@ public class Fast {
                 buffer.append(outputString);
             }
         }
-    }
-
-    private static void drawCombination(Point[] points,
-                                        int startIndex, int endIndex) {
-        points[0].draw();
-        for (int i = startIndex; i <= endIndex; i++) {
-            points[i].draw();
-        }
-        points[0].drawTo(points[endIndex]);
-        StdDraw.show();
     }
 
     private static String getOutputString(Point[] points,
@@ -66,9 +56,13 @@ public class Fast {
         In in = new In(args[0]);
         int N = in.readInt();
         Point[] points = new Point[N];
+        StdDraw.setXscale(0, 32768);
+        StdDraw.setYscale(0, 32768);
         for (int i = 0; i < N; i++) {
             points[i] = new Point(in.readInt(), in.readInt());
+            points[i].draw();
         }
         processPoints(points, null);
+        StdDraw.show();
     }
 }
