@@ -1,41 +1,44 @@
-import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.List;
 
 public class Solver {
-    private List<Board> boardList;
-    private List<Board> twinList;
+    private Queue<Board> boardQueue;
 
     public Solver(Board initial) {
         // find a solution to the initial board (using the A* algorithm)
-        boardList = new ArrayList<Board>();
-        boardList.add(initial);
+        boardQueue = new Queue<Board>();
+        boardQueue.enqueue(initial);
+        Board prevBoard = initial;
+        Board lastBoard = initial;
 
-        twinList = new ArrayList<Board>();
-        twinList.add(initial.twin());
+        Queue<Board> twinList = new Queue<Board>();
+        Board prevTwin = initial.twin();
+        Board lastTwin = prevTwin;
+        twinList.enqueue(prevTwin);
 
         MinPQ<Board> pq = null;
-        Board prevBoard = initial;
-        Board prevTwin = getLastBoard(twinList);
-        while (!getLastBoard(boardList).isGoal()
-                && !getLastBoard(twinList).isGoal()) {
+        while (!lastBoard.isGoal() && !lastTwin.isGoal()) {
             pq = getBoardPQ();
-            for (Board board : getLastBoard(boardList).neighbors()) {
+            for (Board board : lastBoard.neighbors()) {
                 if (!board.equals(prevBoard)) {
                     pq.insert(board);
                 }
             }
-            prevBoard = getLastBoard(boardList);
-            boardList.add(pq.min());
+            prevBoard = lastBoard;
+            lastBoard = pq.min();
+            boardQueue.enqueue(lastBoard);
 
             pq = getBoardPQ();
-            for (Board board : getLastBoard(twinList).neighbors()) {
+            for (Board board : lastTwin.neighbors()) {
                 if (!board.equals(prevTwin)) {
                     pq.insert(board);
                 }
             }
-            prevTwin = getLastBoard(twinList);
-            twinList.add(pq.min());
+            prevTwin = lastTwin;
+            lastTwin = pq.min();
+            twinList.enqueue(lastTwin);
+        }
+        if (!lastBoard.isGoal()) {
+            boardQueue = null;
         }
     }
 
@@ -48,24 +51,20 @@ public class Solver {
         });
     }
 
-    private Board getLastBoard(List<Board> list) {
-        return list.get(list.size() - 1);
-    }
-
     public boolean isSolvable() {
-        return getLastBoard(boardList).isGoal();
+        return boardQueue != null;
     }
 
     public int moves() {
         if (isSolvable()) {
-            return boardList.size() - 1;
+            return boardQueue.size() - 1;
         }
         return -1;
     }
 
     public Iterable<Board> solution() {
         if (isSolvable()) {
-            return boardList;
+            return boardQueue;
         }
         return null;
     }
