@@ -1,40 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e895eb1b-8f62-4266-b421-e2f185ff2385" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/log.txt" afterPath="$PROJECT_DIR$/legacy/log.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/test/algs4/input20.txt" afterPath="$PROJECT_DIR$/legacy/out/test/algs4/input20.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/test/algs4/input6.txt" afterPath="$PROJECT_DIR$/legacy/out/test/algs4/input6.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/test/algs4/input8.txt" afterPath="$PROJECT_DIR$/legacy/out/test/algs4/input8.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/week1/Percolation.java" afterPath="$PROJECT_DIR$/legacy/week1/Percolation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/week1/PercolationStats.java" afterPath="$PROJECT_DIR$/legacy/week1/PercolationStats.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/week1test/PercolationStatsTest.java" afterPath="$PROJECT_DIR$/legacy/week1test/PercolationStatsTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/week1test/PercolationTest.java" afterPath="$PROJECT_DIR$/legacy/week1test/PercolationTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/week1test/PercolationVisualizer.java" afterPath="$PROJECT_DIR$/legacy/week1test/PercolationVisualizer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/week1test/input20.txt" afterPath="$PROJECT_DIR$/legacy/week1test/input20.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/week2/Deque.java" afterPath="$PROJECT_DIR$/legacy/week2/Deque.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/week2/RandomizedQueue.java" afterPath="$PROJECT_DIR$/legacy/week2/RandomizedQueue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/week2/Subset.java" afterPath="$PROJECT_DIR$/legacy/week2/Subset.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/week2test/DequeTest.java" afterPath="$PROJECT_DIR$/legacy/week2test/DequeTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/week2test/RandomizedQueueTest.java" afterPath="$PROJECT_DIR$/legacy/week2test/RandomizedQueueTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/week3/Brute.java" afterPath="$PROJECT_DIR$/legacy/week3/Brute.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/week3/Fast.java" afterPath="$PROJECT_DIR$/legacy/week3/Fast.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/week3/Point.java" afterPath="$PROJECT_DIR$/legacy/week3/Point.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/week3test/BruteTest.java" afterPath="$PROJECT_DIR$/legacy/week3test/BruteTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/week3test/FastTest.java" afterPath="$PROJECT_DIR$/legacy/week3test/FastTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/week3test/PointTest.java" afterPath="$PROJECT_DIR$/legacy/week3test/PointTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/week3test/input6.txt" afterPath="$PROJECT_DIR$/legacy/week3test/input6.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/week3test/input8.txt" afterPath="$PROJECT_DIR$/legacy/week3test/input8.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/week4/Board.java" afterPath="$PROJECT_DIR$/legacy/week4/Board.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/week4/Solver.java" afterPath="$PROJECT_DIR$/legacy/week4/Solver.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/week4test/BoardTest.java" afterPath="$PROJECT_DIR$/legacy/week4test/BoardTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/week4test/SolverTest.java" afterPath="$PROJECT_DIR$/legacy/week4test/SolverTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algs4.jar" afterPath="$PROJECT_DIR$/algs4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stdlib.jar" afterPath="$PROJECT_DIR$/stdlib.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="e895eb1b-8f62-4266-b421-e2f185ff2385" name="Default" comment="" />
     <ignored path="algs4.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="checkstyle-5.5/" />
