@@ -1,9 +1,1 @@
-algs4.jar
-stdlib.jar
-checkstyle-5.5/
-findbugs-2.0.1/
-
-legacy/algs4.jar
-legacy/stdlib.jar
-legacy/checkstyle-5.5/
-legacy/findbugs-2.0.1/
+out/
