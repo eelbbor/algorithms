@@ -17,8 +17,8 @@
       <sourceFolder url="file://$MODULE_DIR$/test/percolation" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/queues" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test/queues" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/points" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/test/points" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/collinear" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test/collinear" isTestSource="true" />
     </content>
     <content url="jar://$MODULE_DIR$/algs4.jar!/" />
     <content url="jar://$MODULE_DIR$/stdlib.jar!/" />

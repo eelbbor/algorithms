@@ -32,20 +32,14 @@ public class Fast {
 
     private static void outputLineSegment(int count, int endIndex, Point... points) {
         int startIndex = endIndex - count + 2;
-        if (points[0].compareTo(points[startIndex]) > -1) {
-            return;
-        }
-        System.out.print(points[0]);
-        for (int i = 0; i < count - 1; i++) {
-            int index = startIndex + i;
-            if (i == 0) {
-                points[0].drawTo(points[index]);
-            } else {
-                points[index - 1].drawTo(points[index]);
+        if (points[0].compareTo(points[startIndex]) < 0) {
+            points[0].drawTo(points[endIndex]);
+            System.out.print(points[0]);
+            for (int i = 0; i < count - 1; i++) {
+                System.out.print(" -> " + points[(startIndex + i)]);
             }
-            System.out.print(" -> " + points[index]);
+            System.out.println();
         }
-        System.out.println();
     }
 
     public static void main(String[] args) {
