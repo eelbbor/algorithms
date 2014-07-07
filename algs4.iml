@@ -42,7 +42,6 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="stdlib" level="application" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
@@ -54,7 +53,8 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="library" name="checkstyle-5.5-all" level="application" />
+    <orderEntry type="library" name="stdlib" level="project" />
+    <orderEntry type="library" name="checkstyle-5.5-all" level="project" />
   </component>
 </module>
 

@@ -1,6 +1,36 @@
+import java.util.Arrays;
+import java.util.Comparator;
+
 public class Brute {
     private static void processPoints(Point[] points) {
-        for(int i = 0 ; i < )
+        Arrays.sort(points);
+        for (int i = 0; i < points.length - 3; i++) {
+            Comparator<Point> slopeOrder = points[i].SLOPE_ORDER;
+            for (int j = i + 1; j < points.length - 2; j++) {
+                for (int k = j + 1; k < points.length - 1; k++) {
+                    if (slopeOrder.compare(points[j], points[k]) == 0) {
+                        for (int l = k + 1; l < points.length; l++) {
+                            if (slopeOrder.compare(points[j], points[l]) == 0) {
+                                //all four on the same level
+                                points[i].drawTo(points[l]);
+                                outputLineSegment(points[i], points[j], points[k],
+                                        points[l]);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    private static void outputLineSegment(Point... points) {
+        for (int i = 0; i < points.length; i++) {
+            if (i > 0) {
+                System.out.print(" -> ");
+            }
+            System.out.print(points[i]);
+        }
+        System.out.println();
     }
 
     public static void main(String[] args) {
