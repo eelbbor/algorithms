@@ -132,9 +132,6 @@ public class KdTree {
         if (isEmpty()) {
             return null;
         }
-        // a nearest neighbor in the set to p; null if set is empty
-//        node.getRect().distanceSquaredTo(point)
-//        Point2D point = root.getPoint();
         ClosestPoint cp = new ClosestPoint(null, Double.POSITIVE_INFINITY);
         nearest(root, cp, p);
         return cp.point;
