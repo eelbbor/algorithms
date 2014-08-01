@@ -108,20 +108,24 @@ public class KdTree {
 
     public Iterable<Point2D> range(RectHV rect) {
         Set<Point2D> points = new TreeSet<Point2D>();
-//        if(rect.contains(root.point)) {
-//            //search both sides
-//        } else if() {
-//
-//        }
-
-        if (rect.xmax() < root.getPoint().x()) {
-            //search left side
-        } else if (rect.xmin() > root.getPoint().x()) {
-            //search right side
-        } else {
-            //search both sides
+        if (!isEmpty()) {
+            checkRange(points, root, rect);
         }
         return points;
+    }
+
+    private void checkRange(Set<Point2D> points, Node node, RectHV rect) {
+        if (rect.contains(node.getPoint())) {
+            points.add(node.getPoint());
+        }
+        if (node.getLeftBottomNode() != null
+                && rect.intersects(node.getLeftBottomRect())) {
+            checkRange(points, node.getLeftBottomNode(), rect);
+        }
+        if (node.getRightTopNode() != null
+                && rect.intersects(node.getRightTopRect())) {
+            checkRange(points, node.getRightTopNode(), rect);
+        }
     }
 
     public Point2D nearest(Point2D p) {

@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e895eb1b-8f62-4266-b421-e2f185ff2385" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/kdtree/KdTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/kdtree/KdTreeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/kdtree/NearestNeighborVisualizer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/kdtree/PointSET.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/kdtree/PointSETTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/kdtree/RangeSearchVisualizer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/kdtree/RectHV.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algs4.iml" afterPath="$PROJECT_DIR$/algs4.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kdtree/KdTree.java" afterPath="$PROJECT_DIR$/src/kdtree/KdTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/kdtree/KdTreeTest.java" afterPath="$PROJECT_DIR$/test/kdtree/KdTreeTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="algs4.iws" />
@@ -96,11 +89,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="KdTree.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="KdTree.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/kdtree/KdTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="277" max-vertical-offset="2160">
-              <caret line="94" column="38" selection-start-line="94" selection-start-column="38" selection-end-line="94" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.5811052" vertical-offset="499" max-vertical-offset="1995">
+              <caret line="116" column="73" selection-start-line="116" selection-start-column="73" selection-end-line="116" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#insert#0;class#KdTree#0" expanded="false" />
@@ -108,25 +101,26 @@
                 <element signature="method#contains#0;class#KdTree#0" expanded="false" />
                 <element signature="method#contains#1;class#KdTree#0" expanded="false" />
                 <element signature="e#2383#2389#0" expanded="true" />
-                <element signature="e#3434#3443#0" expanded="true" />
-                <element signature="method#nearest#0;class#KdTree#0" expanded="false" />
+                <element signature="method#range#0;class#KdTree#0" expanded="false" />
+                <element signature="e#3438#3447#0" expanded="true" />
+                <element signature="method#checkRange#0;class#KdTree#0" expanded="false" />
                 <element signature="method#Node#0;class#Node#0;class#KdTree#0" expanded="false" />
-                <element signature="e#5612#5613#0" expanded="true" />
-                <element signature="e#5649#5650#0" expanded="true" />
-                <element signature="e#5695#5696#0" expanded="true" />
-                <element signature="e#5732#5733#0" expanded="true" />
-                <element signature="e#5768#5769#0" expanded="true" />
-                <element signature="e#5815#5816#0" expanded="true" />
+                <element signature="e#5892#5893#0" expanded="true" />
+                <element signature="e#5929#5930#0" expanded="true" />
+                <element signature="e#5975#5976#0" expanded="true" />
+                <element signature="e#6012#6013#0" expanded="true" />
+                <element signature="e#6048#6049#0" expanded="true" />
+                <element signature="e#6095#6096#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KdTreeTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="KdTreeTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/kdtree/KdTreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36363637" vertical-offset="1110" max-vertical-offset="1605">
-              <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1147" max-vertical-offset="1905">
+              <caret line="99" column="4" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="4" />
               <folding>
                 <element signature="e#350#351#0" expanded="true" />
                 <element signature="e#385#386#0" expanded="true" />
@@ -227,15 +221,14 @@
         <option value="$PROJECT_DIR$/test/kdtree/NearestNeighborVisualizer.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/kdtree/PointSET.java" />
-        <option value="$PROJECT_DIR$/src/kdtree/KdTree.java" />
         <option value="$PROJECT_DIR$/test/kdtree/KdTreeTest.java" />
+        <option value="$PROJECT_DIR$/src/kdtree/KdTree.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="263" />
     <option name="y" value="22" />
-    <option name="width" value="1173" />
+    <option name="width" value="1436" />
     <option name="height" value="878" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -372,7 +365,7 @@
       <recent name="$PROJECT_DIR$/test/weekone" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.KdTreeTest.shouldDrawTheTree">
+  <component name="RunManager" selected="TestNG.KdTreeTest">
     <configuration default="false" name="RangeSearchVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="RangeSearchVisualizer" />
@@ -628,9 +621,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.KdTreeTest.shouldDrawTheTree" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.KdTreeTest.shouldInsertPoints" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.KdTreeTest" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.KdTreeTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.KdTreeTest.shouldDrawTheTree" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.KdTreeTest.shouldInsertPoints" />
         <item index="3" class="java.lang.String" itemvalue="Application.NearestNeighborVisualizer" />
         <item index="4" class="java.lang.String" itemvalue="Application.RangeSearchVisualizer" />
       </list>
@@ -662,16 +655,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="263" y="22" width="1173" height="878" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="22" width="1436" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5279898" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3167939" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25063613" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3346056" sideWeight="0.999187" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3346056" sideWeight="0.999187" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -682,7 +675,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21807748" sideWeight="0.5911854" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3562341" sideWeight="0.99282867" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27099237" sideWeight="0.99282867" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -715,12 +708,6 @@
           <line>135</line>
           <properties />
           <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/test/kdtree/KdTreeTest.java</url>
-          <line>104</line>
-          <properties />
-          <option name="timeStamp" value="79" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -1098,10 +1085,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/kdtree/KdTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1147" max-vertical-offset="1905">
+          <caret line="99" column="4" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="4" />
+          <folding>
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="method#shouldNotInsertDuplicatePoints#0;class#KdTreeTest#0" expanded="false" />
+            <element signature="e#1330#1331#0" expanded="true" />
+            <element signature="e#1401#1402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/kdtree/KdTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="277" max-vertical-offset="2160">
-          <caret line="94" column="38" selection-start-line="94" selection-start-column="38" selection-end-line="94" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.5811052" vertical-offset="499" max-vertical-offset="1995">
+          <caret line="116" column="73" selection-start-line="116" selection-start-column="73" selection-end-line="116" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#insert#0;class#KdTree#0" expanded="false" />
@@ -1109,29 +1110,16 @@
             <element signature="method#contains#0;class#KdTree#0" expanded="false" />
             <element signature="method#contains#1;class#KdTree#0" expanded="false" />
             <element signature="e#2383#2389#0" expanded="true" />
-            <element signature="e#3434#3443#0" expanded="true" />
-            <element signature="method#nearest#0;class#KdTree#0" expanded="false" />
+            <element signature="method#range#0;class#KdTree#0" expanded="false" />
+            <element signature="e#3438#3447#0" expanded="true" />
+            <element signature="method#checkRange#0;class#KdTree#0" expanded="false" />
             <element signature="method#Node#0;class#Node#0;class#KdTree#0" expanded="false" />
-            <element signature="e#5612#5613#0" expanded="true" />
-            <element signature="e#5649#5650#0" expanded="true" />
-            <element signature="e#5695#5696#0" expanded="true" />
-            <element signature="e#5732#5733#0" expanded="true" />
-            <element signature="e#5768#5769#0" expanded="true" />
-            <element signature="e#5815#5816#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/kdtree/KdTreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36363637" vertical-offset="1110" max-vertical-offset="1605">
-          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-          <folding>
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="method#shouldNotInsertDuplicatePoints#0;class#KdTreeTest#0" expanded="false" />
-            <element signature="e#1330#1331#0" expanded="true" />
-            <element signature="e#1401#1402#0" expanded="true" />
+            <element signature="e#5892#5893#0" expanded="true" />
+            <element signature="e#5929#5930#0" expanded="true" />
+            <element signature="e#5975#5976#0" expanded="true" />
+            <element signature="e#6012#6013#0" expanded="true" />
+            <element signature="e#6048#6049#0" expanded="true" />
+            <element signature="e#6095#6096#0" expanded="true" />
           </folding>
         </state>
       </provider>

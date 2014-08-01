@@ -97,6 +97,27 @@ public class KdTreeTest {
         assertTrue(range.contains(p5));
     }
 
+    public void shouldReturnIterableWithRootAndLeftRight() {
+        Point2D p1 = new Point2D(0.7, 0.2);
+        Point2D p2 = new Point2D(0.5, 0.4);
+        Point2D p3 = new Point2D(0.2, 0.3);
+        Point2D p4 = new Point2D(0.4, 0.7);
+        Point2D p5 = new Point2D(0.9, 0.6);
+
+        tree.insert(p1);
+        tree.insert(p2);
+        tree.insert(p3);
+        tree.insert(p4);
+        tree.insert(p5);
+
+        TreeSet<Point2D> range = (TreeSet<Point2D>) tree.range(new RectHV(0.45, 0.1, 0.95, 0.7));
+        validateTree(p1, p2, p3, p4, p5);
+        assertEquals(range.size(), 3);
+        assertTrue(range.contains(p1));
+        assertTrue(range.contains(p2));
+        assertTrue(range.contains(p5));
+    }
+
     public void shouldDrawTheTree() {
         for(int i = 0 ; i < 20 ; i++) {
             tree.insert(new Point2D(Math.random(), Math.random()));
