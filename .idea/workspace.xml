@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e895eb1b-8f62-4266-b421-e2f185ff2385" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kdtree/KdTree.java" afterPath="$PROJECT_DIR$/src/kdtree/KdTree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/kdtree/KdTreeTest.java" afterPath="$PROJECT_DIR$/test/kdtree/KdTreeTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="algs4.iws" />
@@ -80,8 +79,8 @@
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
-    <breakpoint_rules converted="true" />
     <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -92,25 +91,26 @@
       <file leaf-file-name="KdTree.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/kdtree/KdTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5811052" vertical-offset="499" max-vertical-offset="1995">
-              <caret line="116" column="73" selection-start-line="116" selection-start-column="73" selection-end-line="116" selection-end-column="73" />
+            <state vertical-scroll-proportion="0.59180033" vertical-offset="1453" max-vertical-offset="2160">
+              <caret line="202" column="8" selection-start-line="202" selection-start-column="8" selection-end-line="202" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#insert#0;class#KdTree#0" expanded="false" />
-                <element signature="method#insert#1;class#KdTree#0" expanded="false" />
+                <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
                 <element signature="method#contains#0;class#KdTree#0" expanded="false" />
                 <element signature="method#contains#1;class#KdTree#0" expanded="false" />
-                <element signature="e#2383#2389#0" expanded="true" />
+                <element signature="method#draw#0;class#KdTree#0" expanded="false" />
+                <element signature="e#2368#2374#0" expanded="true" />
                 <element signature="method#range#0;class#KdTree#0" expanded="false" />
-                <element signature="e#3438#3447#0" expanded="true" />
+                <element signature="e#3423#3432#0" expanded="true" />
                 <element signature="method#checkRange#0;class#KdTree#0" expanded="false" />
                 <element signature="method#Node#0;class#Node#0;class#KdTree#0" expanded="false" />
-                <element signature="e#5892#5893#0" expanded="true" />
-                <element signature="e#5929#5930#0" expanded="true" />
-                <element signature="e#5975#5976#0" expanded="true" />
-                <element signature="e#6012#6013#0" expanded="true" />
-                <element signature="e#6048#6049#0" expanded="true" />
-                <element signature="e#6095#6096#0" expanded="true" />
+                <element signature="e#5305#5306#0" expanded="true" />
+                <element signature="e#5345#5346#0" expanded="true" />
+                <element signature="e#5383#5384#0" expanded="true" />
+                <element signature="e#5418#5419#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,15 +119,9 @@
       <file leaf-file-name="KdTreeTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/kdtree/KdTreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1147" max-vertical-offset="1905">
-              <caret line="99" column="4" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="4" />
-              <folding>
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
-                <element signature="method#shouldNotInsertDuplicatePoints#0;class#KdTreeTest#0" expanded="false" />
-                <element signature="e#1330#1331#0" expanded="true" />
-                <element signature="e#1401#1402#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="1420" max-vertical-offset="1965">
+              <caret line="98" column="9" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -680,8 +674,8 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5687023" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1000,13 +994,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kdtree/RectHV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37656903" vertical-offset="0" max-vertical-offset="1410">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/kdtree/PointSETTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="1365">
@@ -1068,7 +1055,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35672516" vertical-offset="88" max-vertical-offset="1725">
           <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1085,41 +1071,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/kdtree/RectHV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35224274" vertical-offset="618" max-vertical-offset="1410">
+          <caret line="73" column="8" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/kdtree/KdTreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1147" max-vertical-offset="1905">
-          <caret line="99" column="4" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="4" />
-          <folding>
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="method#shouldNotInsertDuplicatePoints#0;class#KdTreeTest#0" expanded="false" />
-            <element signature="e#1330#1331#0" expanded="true" />
-            <element signature="e#1401#1402#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="1420" max-vertical-offset="1965">
+          <caret line="98" column="9" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/kdtree/KdTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5811052" vertical-offset="499" max-vertical-offset="1995">
-          <caret line="116" column="73" selection-start-line="116" selection-start-column="73" selection-end-line="116" selection-end-column="73" />
+        <state vertical-scroll-proportion="0.59180033" vertical-offset="1453" max-vertical-offset="2160">
+          <caret line="202" column="8" selection-start-line="202" selection-start-column="8" selection-end-line="202" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#insert#0;class#KdTree#0" expanded="false" />
-            <element signature="method#insert#1;class#KdTree#0" expanded="false" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
             <element signature="method#contains#0;class#KdTree#0" expanded="false" />
             <element signature="method#contains#1;class#KdTree#0" expanded="false" />
-            <element signature="e#2383#2389#0" expanded="true" />
+            <element signature="method#draw#0;class#KdTree#0" expanded="false" />
+            <element signature="e#2368#2374#0" expanded="true" />
             <element signature="method#range#0;class#KdTree#0" expanded="false" />
-            <element signature="e#3438#3447#0" expanded="true" />
+            <element signature="e#3423#3432#0" expanded="true" />
             <element signature="method#checkRange#0;class#KdTree#0" expanded="false" />
             <element signature="method#Node#0;class#Node#0;class#KdTree#0" expanded="false" />
-            <element signature="e#5892#5893#0" expanded="true" />
-            <element signature="e#5929#5930#0" expanded="true" />
-            <element signature="e#5975#5976#0" expanded="true" />
-            <element signature="e#6012#6013#0" expanded="true" />
-            <element signature="e#6048#6049#0" expanded="true" />
-            <element signature="e#6095#6096#0" expanded="true" />
+            <element signature="e#5305#5306#0" expanded="true" />
+            <element signature="e#5345#5346#0" expanded="true" />
+            <element signature="e#5383#5384#0" expanded="true" />
+            <element signature="e#5418#5419#0" expanded="true" />
           </folding>
         </state>
       </provider>

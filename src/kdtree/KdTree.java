@@ -21,7 +21,7 @@ public class KdTree {
         if (root == null) {
             root = node;
             root.setIsVerticalNode(true);
-            root.setRectangle(new RectHV(0.0, 0.0, 1.0, 1.0));
+            root.setRect(new RectHV(0.0, 0.0, 1.0, 1.0));
             nodeCount++;
         } else if (insert(root, node) != null) {
             nodeCount++;
@@ -36,7 +36,7 @@ public class KdTree {
             if (parent.getLeftBottomNode() == null) {
                 insertNode.setIsVerticalNode(!parent.isVertical());
                 parent.setLeftBottomNode(insertNode);
-                insertNode.setRectangle(parent.getLeftBottomRect());
+                insertNode.setRect(parent.getLeftBottomRect());
             } else {
                 return insert(parent.getLeftBottomNode(), insertNode);
             }
@@ -44,7 +44,7 @@ public class KdTree {
             if (parent.getRightTopNode() == null) {
                 insertNode.setIsVerticalNode(!parent.isVertical());
                 parent.setRightTopNode(insertNode);
-                insertNode.setRectangle(parent.getRightTopRect());
+                insertNode.setRect(parent.getRightTopRect());
             } else {
                 return insert(parent.getRightTopNode(), insertNode);
             }
@@ -130,13 +130,13 @@ public class KdTree {
 
     public Point2D nearest(Point2D p) {
         // a nearest neighbor in the set to p; null if set is empty
+//        node.getRect().distanceSquaredTo(point)
         return null;
     }
 
     private class Node implements Comparable<Node> {
         private Point2D point;
-        private RectHV rectLB;
-        private RectHV rectRT;
+        private RectHV rect;
         private Node nodeLB;
         private Node nodeRT;
         private boolean isVertical;
@@ -174,26 +174,32 @@ public class KdTree {
             nodeRT = rightTopNode;
         }
 
-        protected void setRectangle(RectHV rect) {
-            if (isVertical()) {
-                rectLB = new RectHV(rect.xmin(), rect.ymin(),
-                        getPoint().x(), rect.ymax());
-                rectRT = new RectHV(getPoint().x(), rect.ymin(),
-                        rect.xmax(), rect.ymax());
-            } else {
-                rectLB = new RectHV(rect.xmin(), rect.ymin(),
-                        rect.xmax(), getPoint().y());
-                rectRT = new RectHV(rect.xmin(), getPoint().y(),
-                        rect.xmax(), rect.ymax());
-            }
+        protected void setRect(RectHV rectangle) {
+            rect = rectangle;
+        }
+
+        protected RectHV getRect() {
+            return rect;
         }
 
         protected RectHV getLeftBottomRect() {
-            return rectLB;
+            if (isVertical()) {
+                return new RectHV(rect.xmin(), rect.ymin(),
+                        getPoint().x(), rect.ymax());
+            } else {
+                return new RectHV(rect.xmin(), rect.ymin(),
+                        rect.xmax(), getPoint().y());
+            }
         }
 
         protected RectHV getRightTopRect() {
-            return rectRT;
+            if (isVertical()) {
+                return new RectHV(getPoint().x(), rect.ymin(),
+                        rect.xmax(), rect.ymax());
+            } else {
+                return new RectHV(rect.xmin(), getPoint().y(),
+                        rect.xmax(), rect.ymax());
+            }
         }
 
         public String toString() {
