@@ -61,7 +61,7 @@ public class KdTreeTest {
     public void shouldReturnNearestPoint() {
         Point2D p1 = new Point2D(0.1, 0.1);
         Point2D p2 = new Point2D(0.1, 0.2);
-        Point2D p3 = new Point2D(0.1, 0.17);
+        Point2D p3 = new Point2D(0.1, 0.18);
         Point2D p4 = new Point2D(0.17, 0.1);
         tree.insert(p1);
         tree.insert(p2);

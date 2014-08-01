@@ -129,9 +129,57 @@ public class KdTree {
     }
 
     public Point2D nearest(Point2D p) {
+        if (isEmpty()) {
+            return null;
+        }
         // a nearest neighbor in the set to p; null if set is empty
 //        node.getRect().distanceSquaredTo(point)
-        return null;
+//        Point2D point = root.getPoint();
+        ClosestPoint cp = new ClosestPoint(null, Double.POSITIVE_INFINITY);
+        nearest(root, cp, p);
+        return cp.point;
+    }
+
+    private void nearest(Node node, ClosestPoint cp, Point2D p) {
+        Point2D point = node.getPoint();
+        double distSq = point.distanceSquaredTo(p);
+        if (distSq <= cp.distSq) {
+            cp.point = point;
+            cp.distSq = distSq;
+        }
+
+        if ((node.isVertical() && p.x() > point.x())
+                || !(node.isVertical() && p.y() > point.y())) {
+            processRightTopNearest(node, cp, p);
+            processLeftBottomNearest(node, cp, p);
+        } else {
+            processLeftBottomNearest(node, cp, p);
+            processRightTopNearest(node, cp, p);
+        }
+    }
+
+    private void processLeftBottomNearest(Node node, ClosestPoint cp, Point2D p) {
+        if (node.getLeftBottomNode() != null
+                && node.getLeftBottomRect().distanceSquaredTo(p) < cp.distSq) {
+            nearest(node.getLeftBottomNode(), cp, p);
+        }
+    }
+
+    private void processRightTopNearest(Node node, ClosestPoint cp, Point2D p) {
+        if (node.getRightTopNode() != null
+                && node.getRightTopRect().distanceSquaredTo(p) < cp.distSq) {
+            nearest(node.getRightTopNode(), cp, p);
+        }
+    }
+
+    private class ClosestPoint {
+        private Point2D point;
+        private double distSq;
+
+        public ClosestPoint(Point2D point, double distSq) {
+            this.point = point;
+            this.distSq = distSq;
+        }
     }
 
     private class Node implements Comparable<Node> {
